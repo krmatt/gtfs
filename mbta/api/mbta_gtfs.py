@@ -38,14 +38,26 @@ def get_gtfs_static_data(data_type: str):
 
 
 def main():
-    trip_updates = get_gtfs_realtime_data(URL_TRIP_UPDATES_REALTIME)
-    trip_update = trip_updates["entity"][0]
-    print(trip_update)
-    df_stops = get_gtfs_static_data("stops")
-    print(trip_update["trip_update"]["trip"])
-    for stop_time_update in trip_update["trip_update"]["stop_time_update"]:
-        stop_name = df_stops.loc[df_stops['stop_id'] == stop_time_update['stop_id'], 'stop_name'].iloc[0]
-        print(f"{stop_time_update}\t{stop_name}")
+    # Look at the stop time updates in a trip update
+    # trip_updates = get_gtfs_realtime_data(URL_TRIP_UPDATES_REALTIME)
+    # trip_update = trip_updates["entity"][0]
+    # print(trip_update)
+    # df_stops = get_gtfs_static_data("stops")
+    # print(trip_update["trip_update"]["trip"])
+    # for stop_time_update in trip_update["trip_update"]["stop_time_update"]:
+    #     stop_name = df_stops.loc[df_stops['stop_id'] == stop_time_update['stop_id'], 'stop_name'].iloc[0]
+    #     print(f"{stop_time_update}\t{stop_name}")
+
+    # Look at the positions of a vehicle on a trip
+    vehicle_positions = get_gtfs_realtime_data(URL_VEHICLE_POSITIONS_REALTIME)["entity"]
+    vehicle_position = vehicle_positions["entity"][0]
+
+    for vehicle in vehicle_positions:
+        print(f"{vehicle['id']}:\n\tSpeed: {vehicle['vehicle']['position']['speed']}")
+    # get vehicle positions every 15 seconds
+    # for vehicles on Green Line E Branch:
+    #   record arrival and departure times from each stop on its trip
+    #   infer actual trip time, record optimal segments, estimate ETT
 
 
 if __name__ == "__main__":
