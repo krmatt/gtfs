@@ -63,3 +63,22 @@ Enhanced:
 - boarding_status: for understanding when a vehicle arrives/departs a stop. "on time", "now boarding", "departed"
 - route_pattern_id: for identifying if a stop event is at the inbound or outbound station. correlate with route_patterns.txt
 - revenue: can be used to filter out non-revenue trips. assumed true if omitted. note green line may incorrectly identify non-revenue trips as revenue trips.
+
+Current frequent/key bus routes (8/5/2025 with map from 6/15/2025):
+1
+15
+22
+23
+28
+32
+39
+57
+66
+71
+73
+77
+104
+109
+110
+111
+116
