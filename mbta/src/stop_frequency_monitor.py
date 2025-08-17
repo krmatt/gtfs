@@ -4,6 +4,8 @@ from datetime import datetime
 import httpx
 import httpx_sse
 import json
+import logging
+import random
 # import sqlite3  # TODO remove
 
 import mbta_gtfs as gtfs
@@ -11,6 +13,9 @@ import mbta_gtfs as gtfs
 FILEPATH_STOP_ARRIVAL_EVENTS = "gtfs/mbta/data/stop_arrival_events.json"
 FILEPATH_ERRORS = "gtfs/mbta/data/frequency_monitor_errors.txt"
 DATABASE = "stop_events.db"
+
+RETRY_BASE_SECONDS = 5
+RETRY_MAX_SECONDS = 60
 
 FREQUENT_BUS_ROUTES = [
     "1",
@@ -31,6 +36,16 @@ FREQUENT_BUS_ROUTES = [
     "111",
     "116",
 ]
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("stop_frequency_monitor.log"),
+        logging.StreamHandler()
+    ]
+)
 
 previous_vehicle_stops = {}  # vehicle_id: stop_id
 
@@ -132,16 +147,28 @@ async def stream_vehicle_data():
         "x-api-key": gtfs.get_credentials(True)
     }
 
-    async with httpx.AsyncClient(timeout=None) as client:
-        async with httpx_sse.aconnect_sse(client=client, method="GET", url=url, headers=headers) as sse:
-            async with aiosqlite.connect(DATABASE) as db:
-                async for event in sse.aiter_sse():
-                    if event.event == "update":  # TODO handle other event types (reset, add, remove)
-                        try:
-                            data = json.loads(event.data)
-                            await handle_vehicle_data(data, db)
-                        except Exception as e:
-                            print(f"Error parsing stream data: {e}")
+    attempt = 0
+    while True:
+        try:
+            logging.info(f"Connecting to MBTA SSE stream (attempt {attempt + 1})...")
+            async with httpx.AsyncClient(timeout=None) as client:
+                async with httpx_sse.aconnect_sse(client=client, method="GET", url=url, headers=headers) as sse:
+                    async with aiosqlite.connect(DATABASE) as db:
+                        async for event in sse.aiter_sse():
+                            if event.event == "update":  # TODO handle other event types (reset, add, remove)
+                                try:
+                                    data = json.loads(event.data)
+                                    await handle_vehicle_data(data, db)
+                                except Exception as e:
+                                    logging.error(f"Error parsing stream data: {e}")
+            raise RuntimeError("SSE stream ended unexpectedly")
+
+        except (httpx.HTTPError, RuntimeError, ConnectionError, asyncio.CancelledError) as e:
+            wait_time = min(RETRY_MAX_SECONDS, RETRY_BASE_SECONDS * (2 ** attempt)) * random.uniform(0.5, 1.5)
+            attempt += 1
+            logging.warning(f"Disconnected or failed to connect: {e}")
+            logging.info(f"Retrying in {wait_time:.1f} seconds...")
+            await asyncio.sleep(wait_time)
 
 
 async def handle_vehicle_data(data: dict, db: aiosqlite.Connection):
@@ -159,7 +186,6 @@ async def handle_vehicle_data(data: dict, db: aiosqlite.Connection):
         route_id in FREQUENT_BUS_ROUTES and
         data["attributes"]["current_status"] == "STOPPED_AT"
     ):
-        print(f"[{stop_timestamp}] Vehicle {vehicle_id} departed from stop {stop_id} (route {route_id}, dir {direction_id})")
         await log_stop_event(db, stop_id, route_id, trip_id, direction_id, stop_timestamp)
         previous_vehicle_stops[vehicle_id] = stop_id
 
