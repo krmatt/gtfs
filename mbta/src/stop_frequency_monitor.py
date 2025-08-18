@@ -6,11 +6,9 @@ import httpx_sse
 import json
 import logging
 import random
-# import sqlite3  # TODO remove
 
 import mbta_gtfs as gtfs
 
-FILEPATH_STOP_ARRIVAL_EVENTS = "gtfs/mbta/data/stop_arrival_events.json"
 FILEPATH_ERRORS = "gtfs/mbta/data/frequency_monitor_errors.txt"
 DATABASE = "stop_events.db"
 
@@ -50,70 +48,6 @@ logging.basicConfig(
 previous_vehicle_stops = {}  # vehicle_id: stop_id
 
 
-### Polling for Data ###
-# def update_stop_events(tracked_route_ids: list[str]) -> None:
-#     vehicle_positions = gtfs.get_gtfs_realtime_data(gtfs.URL_VEHICLE_POSITIONS_REALTIME_ENHANCED)["entity"]
-#     stop_events = []
-#
-#     for vehicle in vehicle_positions:
-#         try:
-#             route_id = vehicle["vehicle"]["trip"]["route_id"]
-#             trip_id = vehicle["vehicle"]["trip"]["trip_id"]
-#             stop_id = vehicle["vehicle"]["stop_id"]
-#             stop_timestamp = vehicle["vehicle"]["timestamp"]
-#         except KeyError as e:
-#             with open(FILEPATH_ERRORS, "w") as f:  # Overwrite because this file could get very big
-#                 f.write(f"Vehicle missing attribute.\n\t{vehicle}\n\t{e}\n")
-#             continue
-#
-#         if (
-#                 vehicle["vehicle"]["trip"]["route_id"] in tracked_route_ids and
-#                 vehicle["vehicle"]["current_status"] == "STOPPED_AT"
-#         ):
-#             stop_events.append((stop_id, route_id, trip_id, stop_timestamp))
-#
-#     conn = sqlite3.connect("stop_events.db")
-#     cursor = conn.cursor()
-#
-#     cursor.execute("""
-#             CREATE TABLE IF NOT EXISTS stop_events (
-#                 stop_id TEXT,
-#                 route_id TEXT,
-#                 trip_id TEXT,
-#                 stop_timestamp INTEGER,
-#                 unique (stop_id, route_id, trip_id)
-#             );
-#         """)
-#
-#     cursor.executemany("""
-#         INSERT OR IGNORE INTO stop_events
-#         VALUES (?, ?, ?, ?)
-#     """, stop_events)
-#
-#     conn.commit()
-#     cursor.close()
-#     conn.close()
-
-
-# def read_db(route_id: str) -> None:
-#     conn = sqlite3.connect("stop_events.db")
-#     cursor = conn.cursor()
-#
-#     cursor.execute(f"""
-#         SELECT * FROM stop_events
-#         WHERE route_id = '{route_id}'
-#         ORDER BY stop_timestamp DESC
-#         LIMIT 100
-#     """)
-#
-#     rows = cursor.fetchall()
-#     for row in rows:
-#         print(row)
-#
-#     cursor.close()
-#     conn.close()
-
-
 ### Streaming Data ###
 async def setup_db():
     async with aiosqlite.connect(DATABASE) as db:
@@ -141,7 +75,7 @@ async def log_stop_event(db: aiosqlite.Connection, stop_id: str, route_id: str, 
 async def stream_vehicle_data():
     await setup_db()
 
-    url = f"{gtfs.URL_MBTA_API_V3}/vehicles?filter[route]=77&filter[revenue]=REVENUE"  # TODO make filter a variable
+    url = f"{gtfs.URL_MBTA_API_V3}/vehicles?filter[route]={','.join(FREQUENT_BUS_ROUTES)}&filter[revenue]=REVENUE"
     headers = {
         "Accept": "text/event-stream",
         "x-api-key": gtfs.get_credentials(True)

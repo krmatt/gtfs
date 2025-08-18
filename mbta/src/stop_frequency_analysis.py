@@ -67,20 +67,19 @@ def plot_headway_over_time(stop_id: str, route_id: str) -> None:
         (df["stop_id"] == stop_id) &
         (df["route_id"] == route_id)
     ]
-    # df_cleaned = df_route.groupby(["stop_id", "route_id"], group_keys=False).apply(remove_outliers, include_groups=False)
-    # print(df_cleaned.head())
-    # df_route = df_cleaned[df_cleaned["route_id"] == route_id]
+    df_plot.loc[df_plot["headway_minutes"] > MAX_HEADWAY_MINUTES, "headway_minutes"] = pd.NA
 
     sns.lineplot(data=df_plot, x="stop_timestamp", y="headway_minutes", marker="o")
 
     plt.axhline(y=15, color="r", lw=1)
     plt.xticks(rotation=45)
-    plt.tight_layout()
+    plt.tight_layout(rect=(0, 0, 1, 0.95))
     plt.xlabel("Stop Timestamp")
     plt.ylabel("Headway (minutes)")
     plt.title(f"Headways of Route {route_id} at Stop {stop_id}")
-    plt.savefig(f"headways_{stop_id}_{route_id}.pdf")
+    plt.savefig(f"../data/headways_{stop_id}_{route_id}.pdf")
 
 
 if __name__ == "__main__":
     plot_headway_over_time("2305", "77")
+    # plot_headway_over_time("2567", "109")
