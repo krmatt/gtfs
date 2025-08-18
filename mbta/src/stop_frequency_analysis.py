@@ -1,9 +1,8 @@
-import sqlite3
-
 import matplotlib
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+import sqlite3
 
 matplotlib.use("Agg")
 
@@ -17,7 +16,6 @@ def load_stop_data_from_sqlite(db: str, table: str) -> pd.DataFrame:
         ORDER BY stop_id, route_id, stop_timestamp
     """
     df = pd.read_sql(query, sqlite3.connect(db))
-    # df["stop_timestamp"] = pd.to_datetime(df["stop_timestamp"], unit="s") - pd.Timedelta(UTC_OFFSET_EDT)
     df["stop_timestamp"] = pd.to_datetime(df["stop_timestamp"])
     df["headway"] = df.groupby(["stop_id", "route_id"])["stop_timestamp"].diff()
     df["headway_minutes"] = df["headway"].dt.total_seconds() / 60
@@ -40,10 +38,6 @@ def calculate_headways(db: str, table: str) -> None:
 
     avg_headways = df.groupby(["stop_id", "route_id"])["headway"].mean().reset_index()
     print(avg_headways)
-
-    # df_cleaned = df.groupby(["stop_id", "route_id"], group_keys=False).apply(remove_outliers, include_groups=False)
-    # df_cleaned["headway_minutes"] = df_cleaned["headway"].dt.total_seconds() / 60
-    # df_cleaned["headway_minutes"].hist(bins=100)
 
     df["headway_minutes"] = df["headway"].dt.total_seconds() / 60
     df_cleaned = df.groupby(["stop_id", "route_id"], group_keys=False).apply(remove_outliers, include_groups=False)
