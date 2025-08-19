@@ -1,0 +1,84 @@
+Main question: How often are vehicles actually arriving at stops?
+
+- Frequent bus routes advertise maximum headways of 15 minutes. How often do they meet this target?
+- Non-frequent bus routes still advertise some stop frequency. How often do they meet their targets?
+- The green line advertises certain headways. How often does it meet its targets?
+
+
+Approach for answering the main question for a single line:
+- Get vehicle positions every minute
+- Use stops/stations as objects, keep a list of the departure (or arrival?) events with timestamps
+- Note how often the advertised headway is met/missed
+
+for tracking stops on a single route:
+- poll vehicle positions
+- for vehicle in entity:
+	if vehicle.trip.route_id == route_id AND vehicle.current_status == "STOPPED_AT":
+		record vehicle.timestamp to a dict/list of arrivals/departures of this route at vehicle.stop_id
+
+stop_events = {
+	(stop_id) 10101 = {
+		(route) 77 = {
+			(date) 20250804 = [
+				(timestamp 1),
+				(timestamp 2),
+				...
+			]
+		}
+	}
+}
+
+- later, calculate headways between arrival/departure timestamps at each station
+	
+
+
+GTFS fields of interest:
+
+Standard:
+stops.txt
+- stop_id: for identifying stops
+- stop_name: for human identification of stops
+- stop_lat/stop_lon: for locating stops vs. vehicle positions
+- location_type: for filtering passenger-accessible "stops"
+routes.txt
+- route_id: for identifying routes
+- route_short/long_name: for human identification of routes
+- route_type: for filtering by mode (bus/light rail/subway)
+trips.txt
+- route_id: for identifying the route of a trip
+- trip_id: for identifying unique trips
+- direction_id: for identifying trip direction/correlating to one-sided stops
+stop_times.txt
+- trip_id: for identifying the trip of a stop
+- arrival_time: the time the vehicle arrived at the stop
+- departure_time: the time the vehicle departed from a stop
+- stop_id: for identifying the stop of a stop time
+- timepoint: whether times are approximate or exact
+frequencies.txt (NOT INCLUDED)
+- trip_id: for identifying trips
+- headway_secs: time between departures from the same stop
+- exact_times: indicates if trips are frequency-based or schedule-based
+
+Enhanced:
+- boarding_status: for understanding when a vehicle arrives/departs a stop. "on time", "now boarding", "departed"
+- route_pattern_id: for identifying if a stop event is at the inbound or outbound station. correlate with route_patterns.txt
+- revenue: can be used to filter out non-revenue trips. assumed true if omitted. note green line may incorrectly identify non-revenue trips as revenue trips.
+
+Current frequent/key bus routes (8/5/2025 with map from 6/15/2025):
+1
+15
+22
+23
+28
+32
+39
+57
+66
+71
+73
+77
+104
+109
+110
+111
+116
