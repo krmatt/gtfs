@@ -37,6 +37,7 @@ def load_data() -> pd.DataFrame:
     df["stop_timestamp"] = pd.to_datetime(df["stop_timestamp"])
     df["headway"] = df.groupby(["stop_id", "route_id"])["stop_timestamp"].diff()
     df["headway_minutes"] = df["headway"].dt.total_seconds() / 60
+    df.loc[df["headway_minutes"] > MAX_HEADWAY_MINUTES, "headway_minutes"] = pd.NA
 
     return df
 
