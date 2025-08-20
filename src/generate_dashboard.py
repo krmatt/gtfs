@@ -69,10 +69,10 @@ def make_scatter_plot_headways_over_time(df: pd.DataFrame) -> str:
 
 def make_scatter_plot_headways_at_first_and_last_stops(df: pd.DataFrame, route_id: str, first_last_stop_ids: dict) -> str:
     stop_ids = [
-        first_last_stop_ids[0]["first"],
-        first_last_stop_ids[0]["last"],
-        first_last_stop_ids[1]["first"],
-        first_last_stop_ids[1]["last"]
+        first_last_stop_ids[route_id][0]["first"],
+        first_last_stop_ids[route_id][0]["last"],
+        first_last_stop_ids[route_id][1]["first"],
+        first_last_stop_ids[route_id][1]["last"]
     ]
 
     # Prepare data
