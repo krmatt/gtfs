@@ -2,7 +2,7 @@ route_id,direction_id,direction,direction_destination
 1,0,Outbound,Harvard Square
 1,1,Inbound,Nubian Station
 10,0,Outbound,City Point
-10,1,Inbound,Copley Square
+10,1,Inbound,Arlington Station
 100,0,Outbound,Elm Street
 100,1,Inbound,Wellington Station
 101,0,Outbound,Malden Center Station
@@ -111,8 +111,6 @@ route_id,direction_id,direction,direction_destination
 31,1,Inbound,Forest Hills Station
 32,0,Outbound,Wolcott or Cleary Square
 32,1,Inbound,Forest Hills Station
-3233,0,Outbound,River Street & Milton Street
-3233,1,Inbound,Mattapan Station
 33,0,Outbound,River Street & Milton Street
 33,1,Inbound,Mattapan Station
 34,0,Outbound,Dedham Square
@@ -198,7 +196,7 @@ route_id,direction_id,direction,direction_destination
 52,0,Outbound,Dedham Mall
 52,1,Inbound,Watertown Yard
 55,0,Outbound,West Fenway
-55,1,Inbound,Copley Square
+55,1,Inbound,Arlington Station
 553,0,Outbound,Roberts
 553,1,Inbound,Newton Corner
 554,0,Outbound,Waverley Square
@@ -320,7 +318,11 @@ Boat-F1,1,Inbound,Long Wharf or Rowes Wharf
 Boat-F4,0,Outbound,Charlestown
 Boat-F4,1,Inbound,Long Wharf
 Boat-F6,0,Outbound,Winthrop
-Boat-F6,1,Inbound,Central Wharf
+Boat-F6,1,Inbound,Winthrop
+Boat-F7,0,Outbound,Quincy
+Boat-F7,1,Inbound,Quincy
+Boat-F8,0,Outbound,Winthrop/Quincy
+Boat-F8,1,Inbound,Winthrop/Quincy
 Boat-Lynn,0,Outbound,Blossom Street Pier
 Boat-Lynn,1,Inbound,Long Wharf
 CR-Fairmount,0,Outbound,Fairmount
@@ -339,10 +341,10 @@ CR-Kingston,0,Outbound,Kingston
 CR-Kingston,1,Inbound,South Station
 CR-Lowell,0,Outbound,Lowell
 CR-Lowell,1,Inbound,North Station
-CR-Middleborough,0,Outbound,Middleborough/Lakeville
-CR-Middleborough,1,Inbound,South Station
 CR-Needham,0,Outbound,Needham Heights
 CR-Needham,1,Inbound,South Station
+CR-NewBedford,0,Outbound,Fall River or New Bedford
+CR-NewBedford,1,Inbound,South Station
 CR-Newburyport,0,Outbound,Newburyport or Rockport
 CR-Newburyport,1,Inbound,North Station
 CR-Providence,0,Outbound,Stoughton or Wickford Junction
@@ -409,6 +411,8 @@ Shuttle-AshmontBroadway,0,Outbound,Ashmont
 Shuttle-AshmontBroadway,1,Inbound,Alewife
 Shuttle-AshmontJFK,0,Outbound,Ashmont
 Shuttle-AshmontJFK,1,Inbound,Alewife
+Shuttle-AshmontJFKUMass,0,Outbound,Ashmont
+Shuttle-AshmontJFKUMass,1,Inbound,JFK/UMass
 Shuttle-AshmontMattapan,0,Outbound,Mattapan
 Shuttle-AshmontMattapan,1,Inbound,Ashmont
 Shuttle-AshmontParkStreetViaPostOffice,0,South,Ashmont
@@ -427,14 +431,16 @@ Shuttle-BabcockCopley,0,West,Boston College
 Shuttle-BabcockCopley,1,East,Government Center
 Shuttle-BabcockKenmore,0,West,Boston College
 Shuttle-BabcockKenmore,1,East,Government Center
+Shuttle-BabcockStreetBackBayViaCopley,0,Outbound,Babcock Street
+Shuttle-BabcockStreetBackBayViaCopley,1,Inbound,Back Bay
 Shuttle-BackBayBostonLanding,0,Outbound,Worcester
 Shuttle-BackBayBostonLanding,1,Inbound,South Station
 Shuttle-BackBayBostonUniversityEast,0,West,Boston College
 Shuttle-BackBayBostonUniversityEast,1,East,Government Center
-Shuttle-BackBayForestHills,0,South,Forest Hills
-Shuttle-BackBayForestHills,1,North,Back Bay
 Shuttle-BackBayJackson,0,South,Forest Hills
 Shuttle-BackBayJackson,1,North,Oak Grove
+Shuttle-BackBayKenmore,0,West,Kenmore & West
+Shuttle-BackBayKenmore,1,East,Park Street & North
 Shuttle-BackBayRuggles,0,South,Forest Hills
 Shuttle-BackBayRuggles,1,North,Oak Grove
 Shuttle-BackBayStMarys,0,West,Cleveland Circle
@@ -449,8 +455,6 @@ Shuttle-BeverlyNewburyportLocal,0,Outbound,Newburyport
 Shuttle-BeverlyNewburyportLocal,1,Inbound,North Station
 Shuttle-BeverlyNorthStationLimited,0,Outbound,Newburyport or Rockport
 Shuttle-BeverlyNorthStationLimited,1,Inbound,North Station
-Shuttle-BeverlyNorthStationLocal,0,Outbound,Newburyport or Rockport
-Shuttle-BeverlyNorthStationLocal,1,Inbound,North Station
 Shuttle-BeverlyRockportExpress,0,Outbound,Rockport
 Shuttle-BeverlyRockportExpress,1,Inbound,North Station
 Shuttle-BeverlyRockportLocal,0,Outbound,Rockport
@@ -473,8 +477,8 @@ Shuttle-BradfordHaverhill,0,Outbound,Haverhill
 Shuttle-BradfordHaverhill,1,Inbound,North Station
 Shuttle-BraintreeBroadway,0,South,Braintree
 Shuttle-BraintreeBroadway,1,North,Alewife
-Shuttle-BraintreeJFK,0,South,Braintree
-Shuttle-BraintreeJFK,1,North,Alewife
+Shuttle-BraintreeJFKUMass,0,Outbound,Braintree
+Shuttle-BraintreeJFKUMass,1,Inbound,JFK/UMass
 Shuttle-BraintreeNorthQuincy,0,South,Braintree
 Shuttle-BraintreeNorthQuincy,1,North,Alewife
 Shuttle-BraintreeQuincyCenter,0,South,Braintree
@@ -483,8 +487,6 @@ Shuttle-BraintreeSouthStationExpress,0,Outbound,Braintree
 Shuttle-BraintreeSouthStationExpress,1,Inbound,South Station
 Shuttle-BraintreeSouthWeymouth,0,South,Kingston
 Shuttle-BraintreeSouthWeymouth,1,North,South Station
-Shuttle-BridgewaterMiddleboroughLakeville,0,Outbound,Middleborough/Lakeville
-Shuttle-BridgewaterMiddleboroughLakeville,1,Inbound,South Station
 Shuttle-BroadwayHarvard,0,South,Ashmont/Braintree
 Shuttle-BroadwayHarvard,1,North,Alewife
 Shuttle-BroadwayJFK,0,South,Ashmont/Braintree
@@ -517,8 +519,8 @@ Shuttle-ClevelandCircleStMarys,0,West,Cleveland Circle
 Shuttle-ClevelandCircleStMarys,1,East,Government Center
 Shuttle-CopleyForestHills,0,South,Forest Hills
 Shuttle-CopleyForestHills,1,North,Oak Grove
-Shuttle-CopleyJackson,0,South,Forest Hills
-Shuttle-CopleyJackson,1,North,Oak Grove
+Shuttle-CopleyJacksonSquare,0,South,Forest Hills
+Shuttle-CopleyJacksonSquare,1,North,Oak Grove
 Shuttle-CopleyKenmore,0,West,Kenmore & West
 Shuttle-CopleyKenmore,1,East,Park Street & North
 Shuttle-CopleyRiversideExpress,0,West,Riverside
@@ -539,6 +541,12 @@ Shuttle-FenwayReservoir,0,West,Riverside
 Shuttle-FenwayReservoir,1,East,Union Square
 Shuttle-FenwayRiverside,0,West,Riverside
 Shuttle-FenwayRiverside,1,East,Union Square
+Shuttle-ForestHillsBackBay,0,Outbound,Forest Hills
+Shuttle-ForestHillsBackBay,1,Inbound,Back Bay
+Shuttle-ForestHillsBackBayViaCopley,0,Outbound,Forest Hills
+Shuttle-ForestHillsBackBayViaCopley,1,Inbound,Back Bay
+Shuttle-ForestHillsCopleyViaBackBay,0,Outbound,Forest Hills
+Shuttle-ForestHillsCopleyViaBackBay,1,Inbound,Copley
 Shuttle-ForestHillsJackson,0,South,Forest Hills
 Shuttle-ForestHillsJackson,1,North,Oak Grove
 Shuttle-ForestHillsNeedhamHeights,0,Outbound,Needham Heights
@@ -547,6 +555,8 @@ Shuttle-ForestHillsNewtonHighlands,0,Outbound,Newton Highlands
 Shuttle-ForestHillsNewtonHighlands,1,Inbound,South Station
 Shuttle-ForestHillsRuggles,0,South,Forest Hills
 Shuttle-ForestHillsRuggles,1,North,Oak Grove
+Shuttle-ForgeParkFranklin,0,Outbound,Forge Park/495
+Shuttle-ForgeParkFranklin,1,Inbound,South Station
 Shuttle-ForgeParkNorwoodCentral,0,Outbound,Forge Park/495
 Shuttle-ForgeParkNorwoodCentral,1,Inbound,South Station
 Shuttle-ForgeParkReadville,0,Outbound,Forge Park/495
@@ -555,16 +565,14 @@ Shuttle-ForgeParkSouthStation,0,Outbound,Forge Park/495
 Shuttle-ForgeParkSouthStation,1,Inbound,South Station
 Shuttle-ForgeParkWalpole,0,Outbound,Forge Park/495
 Shuttle-ForgeParkWalpole,1,Inbound,South Station
-Shuttle-FraminghamSouthStationExpress,0,Outbound,Worcester
-Shuttle-FraminghamSouthStationExpress,1,Inbound,South Station
+Shuttle-FoxboroWalpole,0,Outbound,Foxboro
+Shuttle-FoxboroWalpole,1,Inbound,Walpole
+Shuttle-GovernmentCenterMedfordTufts,0,Inbound,Government Center
+Shuttle-GovernmentCenterMedfordTufts,1,Outbound,Medford/Tufts
 Shuttle-GovernmentCenterMedfordViaUnionSq,0,West,Government Center
 Shuttle-GovernmentCenterMedfordViaUnionSq,1,East,Medford/Tufts
 Shuttle-GovernmentCenterNorthStation,0,West,Copley & West
 Shuttle-GovernmentCenterNorthStation,1,East,Lechmere & North
-Shuttle-GovernmentCenterOrientHeightsExpress,0,West,Government Center
-Shuttle-GovernmentCenterOrientHeightsExpress,1,East,Orient Heights
-Shuttle-GovernmentCenterOrientHeightsLocal,0,West,Government Center
-Shuttle-GovernmentCenterOrientHeightsLocal,1,East,Orient Heights
 Shuttle-GovernmentCenterUnionSquare,0,West,Copley & West
 Shuttle-GovernmentCenterUnionSquare,1,East,Union Square
 Shuttle-GovernmentCenterWonderland,0,South,Government Center
@@ -583,8 +591,6 @@ Shuttle-HarvardPark,0,South,Ashmont/Braintree
 Shuttle-HarvardPark,1,North,Alewife
 Shuttle-HarvardSouthStation,0,South,Ashmont/Braintree
 Shuttle-HarvardSouthStation,1,North,Alewife
-Shuttle-HaverhillLawrence,0,Outbound,Haverhill
-Shuttle-HaverhillLawrence,1,Inbound,North Station
 Shuttle-HaverhillMaldenCenter,0,Outbound,Haverhill
 Shuttle-HaverhillMaldenCenter,1,Inbound,North Station
 Shuttle-HaverhillNorthStation,0,Outbound,Haverhill
@@ -597,16 +603,24 @@ Shuttle-HeathPark,0,West,Heath Street
 Shuttle-HeathPark,1,East,Medford/Tufts
 Shuttle-HeathPrudential,0,West,Heath Street
 Shuttle-HeathPrudential,1,East,Medford/Tufts
+Shuttle-HydeParkReadville,0,Outbound,Wickford Junction or Stoughton
+Shuttle-HydeParkReadville,1,Inbound,South Station
 Shuttle-JFKKendall,0,South,Ashmont/Braintree
 Shuttle-JFKKendall,1,North,Alewife
+Shuttle-JFKMattapan,0,Outbound,Mattapan
+Shuttle-JFKMattapan,1,Inbound,Alewife
 Shuttle-JFKNorthQuincy,0,South,Braintree
 Shuttle-JFKNorthQuincy,1,North,Alewife
 Shuttle-JFKPark,0,South,Ashmont/Braintree
 Shuttle-JFKPark,1,North,Alewife
 Shuttle-JFKParkStreetViaPostOffice,0,South,Ashmont/Braintree
 Shuttle-JFKParkStreetViaPostOffice,1,North,Alewife
+Shuttle-JFKUMassKendallMIT,0,South,JFK/UMass
+Shuttle-JFKUMassKendallMIT,1,North,Kendall/MIT
 Shuttle-KendallPark,0,South,Ashmont/Braintree
 Shuttle-KendallPark,1,North,Alewife
+Shuttle-KenmoreBackBayViaCopley,0,Outbound,Kenmore
+Shuttle-KenmoreBackBayViaCopley,1,Inbound,Back Bay
 Shuttle-KenmoreReservoir,0,West,Riverside
 Shuttle-KenmoreReservoir,1,East,Union Square
 Shuttle-KenmoreRiverside,0,West,Riverside
@@ -621,6 +635,10 @@ Shuttle-LechmereNorthStation,0,West,North Station
 Shuttle-LechmereNorthStation,1,East,Lechmere & North
 Shuttle-LittletonWachusett,0,Outbound,Wachusett
 Shuttle-LittletonWachusett,1,Inbound,North Station
+Shuttle-LowellNorthStation,0,Outbound,Lowell
+Shuttle-LowellNorthStation,1,Inbound,North Station
+Shuttle-LowellNorthStationExpress,0,Outbound,Lowell
+Shuttle-LowellNorthStationExpress,1,Inbound,North Station
 Shuttle-LowellWilmington,0,Outbound,Lowell
 Shuttle-LowellWilmington,1,Inbound,North Station
 Shuttle-LynnNorthStationExpress,0,Outbound,Newburyport or Rockport
@@ -633,10 +651,6 @@ Shuttle-MaverickWonderland,0,West,Maverick
 Shuttle-MaverickWonderland,1,East,Wonderland
 Shuttle-MedfordNorthStation,0,West,Heath Street
 Shuttle-MedfordNorthStation,1,East,Medford/Tufts
-Shuttle-NStaOakGroveExpress,0,South,North Station
-Shuttle-NStaOakGroveExpress,1,North,Oak Grove
-Shuttle-NStaOakGroveLocal,0,South,North Station
-Shuttle-NStaOakGroveLocal,1,North,Oak Grove
 Shuttle-NewburyportOakGroveExpress,0,Outbound,Newburyport
 Shuttle-NewburyportOakGroveExpress,1,Inbound,North Station
 Shuttle-NewburyportOakGroveLimited,0,Outbound,Newburyport
@@ -657,18 +671,20 @@ Shuttle-NorthBillericaLowell,0,Outbound,Lowell
 Shuttle-NorthBillericaLowell,1,Inbound,North Station
 Shuttle-NorthLeominsterWachusett,0,Outbound,Wachusett
 Shuttle-NorthLeominsterWachusett,1,Inbound,North Station
-Shuttle-NorthStationReading,0,Outbound,Haverhill
-Shuttle-NorthStationReading,1,Inbound,North Station
+Shuttle-NorthStationOakGroveExpress,0,Outbound,North Station
+Shuttle-NorthStationOakGroveExpress,1,Inbound,Oak Grove
+Shuttle-NorthStationOakGroveLocal,0,Outbound,North Station
+Shuttle-NorthStationOakGroveLocal,1,Inbound,Oak Grove
 Shuttle-NorthStationSullivanSquare,0,South,North Station
 Shuttle-NorthStationSullivanSquare,1,North,Sullivan Square via East Somerville
-Shuttle-NorthStationSwampscottExpress,0,Outbound,Newburyport or Rockport
-Shuttle-NorthStationSwampscottExpress,1,Inbound,North Station
 Shuttle-NorthStationSwampscottLimited,0,Outbound,Newburyport or Rockport
 Shuttle-NorthStationSwampscottLimited,1,Inbound,North Station
-Shuttle-NorthStationSwampscottLocal,0,Outbound,Newburyport or Rockport
-Shuttle-NorthStationSwampscottLocal,1,Inbound,North Station
 Shuttle-NorthStationUnionSquare,0,West,Riverside
 Shuttle-NorthStationUnionSquare,1,East,Union Square
+Shuttle-NorthStationWellingtonExpress,0,South,North Station
+Shuttle-NorthStationWellingtonExpress,1,North,Wellington
+Shuttle-NorthStationWellingtonLocal,0,South,North Station
+Shuttle-NorthStationWellingtonLocal,1,North,Wellington
 Shuttle-OakGroveReading,0,Outbound,Reading
 Shuttle-OakGroveReading,1,Inbound,North Station
 Shuttle-OakGroveRockportExpress,0,Outbound,Rockport
@@ -677,6 +693,10 @@ Shuttle-OakGroveRockportLimited,0,Outbound,Rockport
 Shuttle-OakGroveRockportLimited,1,Inbound,North Station
 Shuttle-OakGroveSalemLocal,0,Outbound,Newburyport or Rockport
 Shuttle-OakGroveSalemLocal,1,Inbound,North Station
+Shuttle-OrientHeightsGovernmentCenterExpress,0,Outbound,Orient Heights
+Shuttle-OrientHeightsGovernmentCenterExpress,1,Inbound,Government Center
+Shuttle-OrientHeightsGovernmentCenterLocal,0,Outbound,Orient Heights
+Shuttle-OrientHeightsGovernmentCenterLocal,1,Inbound,Government Center
 Shuttle-OrientHeightsWonderland,0,West,Bowdoin
 Shuttle-OrientHeightsWonderland,1,East,Wonderland
 Shuttle-PawtucketProvidence,0,Outbound,Wickford Junction
@@ -703,3 +723,5 @@ Shuttle-SuffolkDownsWonderland,0,West,Bowdoin
 Shuttle-SuffolkDownsWonderland,1,East,Wonderland
 Shuttle-TFGreenWickfordJunction,0,Outbound,Wickford Junction
 Shuttle-TFGreenWickfordJunction,1,Inbound,South Station
+Shuttle-WonderlandAirport,0,Outbound,Wonderland
+Shuttle-WonderlandAirport,1,Inbound,Airport

@@ -1,108 +1,4 @@
 facility_id,property_id,value
-102,direction,up
-102,excludes-stop,9328
-102,excludes-stop,door-ogmnl-banks
-102,excludes-stop,door-ogmnl-washel
-102,excludes-stop,node-102-lobby
-102,excludes-stop,node-102-street
-102,excludes-stop,node-103-lobby
-102,excludes-stop,node-103-platform
-102,excludes-stop,node-104-lobby
-102,excludes-stop,node-104-street
-102,excludes-stop,node-105-crplatform
-102,excludes-stop,node-105-lobby
-102,excludes-stop,node-743-lobby
-102,excludes-stop,node-743-platform
-102,excludes-stop,node-744-lobby
-102,excludes-stop,node-745-lobby
-102,excludes-stop,node-745-street
-102,excludes-stop,node-746-lobby
-102,excludes-stop,node-746-platform
-102,excludes-stop,node-800-crplatform
-102,excludes-stop,node-800-lobby
-102,excludes-stop,node-800-street
-102,excludes-stop,node-801-lobby
-102,excludes-stop,node-801-platform
-102,excludes-stop,node-ogmnl-banksstair-lobby
-102,excludes-stop,node-ogmnl-banksstair-street
-102,excludes-stop,node-ogmnl-crstair-crplatform
-102,excludes-stop,node-ogmnl-crstair-lobby
-102,excludes-stop,node-ogmnl-farepaid
-102,excludes-stop,node-ogmnl-fareunpaid
-102,excludes-stop,node-ogmnl-olstair-lobby
-102,excludes-stop,node-ogmnl-olstair-platform
-102,excludes-stop,node-ogmnl-washstair-lobby
-102,excludes-stop,node-ogmnl-washstair-street
-103,direction,up
-103,excludes-stop,9328
-103,excludes-stop,WR-0053-S
-103,excludes-stop,door-ogmnl-banks
-103,excludes-stop,door-ogmnl-wash
-103,excludes-stop,door-ogmnl-washel
-103,excludes-stop,node-102-lobby
-103,excludes-stop,node-102-street
-103,excludes-stop,node-103-lobby
-103,excludes-stop,node-103-platform
-103,excludes-stop,node-104-lobby
-103,excludes-stop,node-104-street
-103,excludes-stop,node-105-crplatform
-103,excludes-stop,node-105-lobby
-103,excludes-stop,node-743-lobby
-103,excludes-stop,node-743-platform
-103,excludes-stop,node-744-lobby
-103,excludes-stop,node-745-lobby
-103,excludes-stop,node-745-street
-103,excludes-stop,node-746-lobby
-103,excludes-stop,node-746-platform
-103,excludes-stop,node-800-crplatform
-103,excludes-stop,node-800-lobby
-103,excludes-stop,node-800-street
-103,excludes-stop,node-801-lobby
-103,excludes-stop,node-801-platform
-103,excludes-stop,node-ogmnl-banksstair-lobby
-103,excludes-stop,node-ogmnl-banksstair-street
-103,excludes-stop,node-ogmnl-crstair-crplatform
-103,excludes-stop,node-ogmnl-crstair-lobby
-103,excludes-stop,node-ogmnl-farepaid
-103,excludes-stop,node-ogmnl-fareunpaid
-103,excludes-stop,node-ogmnl-olstair-lobby
-103,excludes-stop,node-ogmnl-olstair-platform
-103,excludes-stop,node-ogmnl-washstair-lobby
-103,excludes-stop,node-ogmnl-washstair-street
-104,direction,up
-104,excludes-stop,9328
-104,excludes-stop,door-ogmnl-wash
-104,excludes-stop,door-ogmnl-washel
-104,excludes-stop,node-102-lobby
-104,excludes-stop,node-102-street
-104,excludes-stop,node-103-lobby
-104,excludes-stop,node-103-platform
-104,excludes-stop,node-104-lobby
-104,excludes-stop,node-104-street
-104,excludes-stop,node-105-crplatform
-104,excludes-stop,node-105-lobby
-104,excludes-stop,node-743-lobby
-104,excludes-stop,node-743-platform
-104,excludes-stop,node-744-lobby
-104,excludes-stop,node-745-lobby
-104,excludes-stop,node-745-street
-104,excludes-stop,node-746-lobby
-104,excludes-stop,node-746-platform
-104,excludes-stop,node-800-crplatform
-104,excludes-stop,node-800-lobby
-104,excludes-stop,node-800-street
-104,excludes-stop,node-801-lobby
-104,excludes-stop,node-801-platform
-104,excludes-stop,node-ogmnl-banksstair-lobby
-104,excludes-stop,node-ogmnl-banksstair-street
-104,excludes-stop,node-ogmnl-crstair-crplatform
-104,excludes-stop,node-ogmnl-crstair-lobby
-104,excludes-stop,node-ogmnl-farepaid
-104,excludes-stop,node-ogmnl-fareunpaid
-104,excludes-stop,node-ogmnl-olstair-lobby
-104,excludes-stop,node-ogmnl-olstair-platform
-104,excludes-stop,node-ogmnl-washstair-lobby
-104,excludes-stop,node-ogmnl-washstair-street
 105,direction,up
 105,excludes-stop,70036
 105,excludes-stop,9328
@@ -111,14 +7,14 @@ facility_id,property_id,value
 105,excludes-stop,door-ogmnl-banks
 105,excludes-stop,door-ogmnl-wash
 105,excludes-stop,door-ogmnl-washel
-105,excludes-stop,node-102-lobby
-105,excludes-stop,node-102-street
-105,excludes-stop,node-103-lobby
-105,excludes-stop,node-103-platform
-105,excludes-stop,node-104-lobby
-105,excludes-stop,node-104-street
 105,excludes-stop,node-105-crplatform
 105,excludes-stop,node-105-lobby
+105,excludes-stop,node-451-lobby
+105,excludes-stop,node-451-street
+105,excludes-stop,node-452-lobby
+105,excludes-stop,node-452-street
+105,excludes-stop,node-453-lobby
+105,excludes-stop,node-453-platform
 105,excludes-stop,node-743-lobby
 105,excludes-stop,node-743-platform
 105,excludes-stop,node-744-lobby
@@ -1752,6 +1648,7 @@ facility_id,property_id,value
 305,excludes-stop,node-ccmnl-stairs-platform
 307,direction,up
 307,excludes-stop,29001
+307,excludes-stop,29002
 307,excludes-stop,29003
 307,excludes-stop,29004
 307,excludes-stop,29005
@@ -1763,7 +1660,6 @@ facility_id,property_id,value
 307,excludes-stop,29011
 307,excludes-stop,29012
 307,excludes-stop,29013
-307,excludes-stop,29014
 307,excludes-stop,node-307-lobby
 307,excludes-stop,node-307-platform
 307,excludes-stop,node-308-lobby
@@ -1784,6 +1680,7 @@ facility_id,property_id,value
 307,excludes-stop,node-sull-sbstairs-platform
 308,direction,up
 308,excludes-stop,29001
+308,excludes-stop,29002
 308,excludes-stop,29003
 308,excludes-stop,29004
 308,excludes-stop,29005
@@ -1795,7 +1692,6 @@ facility_id,property_id,value
 308,excludes-stop,29011
 308,excludes-stop,29012
 308,excludes-stop,29013
-308,excludes-stop,29014
 308,excludes-stop,node-307-lobby
 308,excludes-stop,node-307-platform
 308,excludes-stop,node-308-lobby
@@ -3092,6 +2988,12 @@ facility_id,property_id,value
 348,excludes-stop,node-qamnl-third-lobby
 349,direction,up
 349,excludes-stop,141
+349,excludes-stop,14112
+349,excludes-stop,14118
+349,excludes-stop,14120
+349,excludes-stop,14121
+349,excludes-stop,14122
+349,excludes-stop,14123
 349,excludes-stop,9070061
 349,excludes-stop,door-alfcl-alewife
 349,excludes-stop,door-alfcl-alewifes
@@ -3182,6 +3084,12 @@ facility_id,property_id,value
 349,excludes-stop,node-alfcl-wgaragestairs-third
 350,direction,down
 350,excludes-stop,141
+350,excludes-stop,14112
+350,excludes-stop,14118
+350,excludes-stop,14120
+350,excludes-stop,14121
+350,excludes-stop,14122
+350,excludes-stop,14123
 350,excludes-stop,9070061
 350,excludes-stop,door-alfcl-alewife
 350,excludes-stop,door-alfcl-alewifes
@@ -3272,6 +3180,12 @@ facility_id,property_id,value
 350,excludes-stop,node-alfcl-wgaragestairs-third
 351,direction,down
 351,excludes-stop,141
+351,excludes-stop,14112
+351,excludes-stop,14118
+351,excludes-stop,14120
+351,excludes-stop,14121
+351,excludes-stop,14122
+351,excludes-stop,14123
 351,excludes-stop,9070061
 351,excludes-stop,door-alfcl-alewife
 351,excludes-stop,door-alfcl-alewifes
@@ -3363,6 +3277,12 @@ facility_id,property_id,value
 351,excludes-stop,node-alfcl-wgaragestairs-third
 352,direction,up
 352,excludes-stop,141
+352,excludes-stop,14112
+352,excludes-stop,14118
+352,excludes-stop,14120
+352,excludes-stop,14121
+352,excludes-stop,14122
+352,excludes-stop,14123
 352,excludes-stop,9070061
 352,excludes-stop,door-alfcl-alewife
 352,excludes-stop,door-alfcl-alewifes
@@ -3453,6 +3373,12 @@ facility_id,property_id,value
 352,excludes-stop,node-alfcl-wgaragestairs-second
 352,excludes-stop,node-alfcl-wgaragestairs-third
 353,direction,up
+353,excludes-stop,14112
+353,excludes-stop,14118
+353,excludes-stop,14120
+353,excludes-stop,14121
+353,excludes-stop,14122
+353,excludes-stop,14123
 353,excludes-stop,9070061
 353,excludes-stop,door-alfcl-alewife
 353,excludes-stop,door-alfcl-alewifes
@@ -3544,6 +3470,12 @@ facility_id,property_id,value
 353,excludes-stop,node-alfcl-wgaragestairs-third
 354,direction,up
 354,excludes-stop,141
+354,excludes-stop,14112
+354,excludes-stop,14118
+354,excludes-stop,14120
+354,excludes-stop,14121
+354,excludes-stop,14122
+354,excludes-stop,14123
 354,excludes-stop,9070061
 354,excludes-stop,door-alfcl-alewife
 354,excludes-stop,door-alfcl-alewifes
@@ -3635,6 +3567,12 @@ facility_id,property_id,value
 354,excludes-stop,node-alfcl-wgaragestairs-third
 355,direction,up
 355,excludes-stop,141
+355,excludes-stop,14112
+355,excludes-stop,14118
+355,excludes-stop,14120
+355,excludes-stop,14121
+355,excludes-stop,14122
+355,excludes-stop,14123
 355,excludes-stop,9070061
 355,excludes-stop,door-alfcl-alewife
 355,excludes-stop,door-alfcl-alewifes
@@ -3726,6 +3664,12 @@ facility_id,property_id,value
 355,excludes-stop,node-alfcl-wgaragestairs-third
 356,direction,up
 356,excludes-stop,141
+356,excludes-stop,14112
+356,excludes-stop,14118
+356,excludes-stop,14120
+356,excludes-stop,14121
+356,excludes-stop,14122
+356,excludes-stop,14123
 356,excludes-stop,9070061
 356,excludes-stop,door-alfcl-alewife
 356,excludes-stop,door-alfcl-alewifes
@@ -3817,6 +3761,12 @@ facility_id,property_id,value
 356,excludes-stop,node-alfcl-wgaragestairs-third
 357,direction,up
 357,excludes-stop,141
+357,excludes-stop,14112
+357,excludes-stop,14118
+357,excludes-stop,14120
+357,excludes-stop,14121
+357,excludes-stop,14122
+357,excludes-stop,14123
 357,excludes-stop,9070061
 357,excludes-stop,door-alfcl-alewife
 357,excludes-stop,door-alfcl-alewifes
@@ -6417,6 +6367,7 @@ facility_id,property_id,value
 407,direction,down
 407,excludes-stop,70047
 407,excludes-stop,7096
+407,excludes-stop,70961
 407,excludes-stop,7097
 407,excludes-stop,door-aport-bremen
 407,excludes-stop,door-aport-buses
@@ -6451,6 +6402,7 @@ facility_id,property_id,value
 408,direction,up
 408,excludes-stop,70047
 408,excludes-stop,7096
+408,excludes-stop,70961
 408,excludes-stop,7097
 408,excludes-stop,door-aport-bremen
 408,excludes-stop,door-aport-buses
@@ -6485,6 +6437,7 @@ facility_id,property_id,value
 409,direction,up
 409,excludes-stop,70048
 409,excludes-stop,7096
+409,excludes-stop,70961
 409,excludes-stop,7097
 409,excludes-stop,door-aport-bremen
 409,excludes-stop,door-aport-buses
@@ -6519,6 +6472,7 @@ facility_id,property_id,value
 410,direction,down
 410,excludes-stop,70048
 410,excludes-stop,7096
+410,excludes-stop,70961
 410,excludes-stop,7097
 410,excludes-stop,door-aport-bremen
 410,excludes-stop,door-aport-buses
@@ -8118,6 +8072,110 @@ facility_id,property_id,value
 450,excludes-stop,node-knncl-sbmain-platform
 450,excludes-stop,node-knncl-sbsec-farepaid
 450,excludes-stop,node-knncl-sbsec-fareunpaid
+451,direction,up
+451,excludes-stop,9328
+451,excludes-stop,door-ogmnl-wash
+451,excludes-stop,door-ogmnl-washel
+451,excludes-stop,node-105-crplatform
+451,excludes-stop,node-105-lobby
+451,excludes-stop,node-451-lobby
+451,excludes-stop,node-451-street
+451,excludes-stop,node-452-lobby
+451,excludes-stop,node-452-street
+451,excludes-stop,node-453-lobby
+451,excludes-stop,node-453-platform
+451,excludes-stop,node-743-lobby
+451,excludes-stop,node-743-platform
+451,excludes-stop,node-744-lobby
+451,excludes-stop,node-745-lobby
+451,excludes-stop,node-745-street
+451,excludes-stop,node-746-lobby
+451,excludes-stop,node-746-platform
+451,excludes-stop,node-800-crplatform
+451,excludes-stop,node-800-lobby
+451,excludes-stop,node-800-street
+451,excludes-stop,node-801-lobby
+451,excludes-stop,node-801-platform
+451,excludes-stop,node-ogmnl-banksstair-lobby
+451,excludes-stop,node-ogmnl-banksstair-street
+451,excludes-stop,node-ogmnl-crstair-crplatform
+451,excludes-stop,node-ogmnl-crstair-lobby
+451,excludes-stop,node-ogmnl-farepaid
+451,excludes-stop,node-ogmnl-fareunpaid
+451,excludes-stop,node-ogmnl-olstair-lobby
+451,excludes-stop,node-ogmnl-olstair-platform
+451,excludes-stop,node-ogmnl-washstair-lobby
+451,excludes-stop,node-ogmnl-washstair-street
+452,direction,up
+452,excludes-stop,9328
+452,excludes-stop,door-ogmnl-banks
+452,excludes-stop,door-ogmnl-washel
+452,excludes-stop,node-105-crplatform
+452,excludes-stop,node-105-lobby
+452,excludes-stop,node-451-lobby
+452,excludes-stop,node-451-street
+452,excludes-stop,node-452-lobby
+452,excludes-stop,node-452-street
+452,excludes-stop,node-453-lobby
+452,excludes-stop,node-453-platform
+452,excludes-stop,node-743-lobby
+452,excludes-stop,node-743-platform
+452,excludes-stop,node-744-lobby
+452,excludes-stop,node-745-lobby
+452,excludes-stop,node-745-street
+452,excludes-stop,node-746-lobby
+452,excludes-stop,node-746-platform
+452,excludes-stop,node-800-crplatform
+452,excludes-stop,node-800-lobby
+452,excludes-stop,node-800-street
+452,excludes-stop,node-801-lobby
+452,excludes-stop,node-801-platform
+452,excludes-stop,node-ogmnl-banksstair-lobby
+452,excludes-stop,node-ogmnl-banksstair-street
+452,excludes-stop,node-ogmnl-crstair-crplatform
+452,excludes-stop,node-ogmnl-crstair-lobby
+452,excludes-stop,node-ogmnl-farepaid
+452,excludes-stop,node-ogmnl-fareunpaid
+452,excludes-stop,node-ogmnl-olstair-lobby
+452,excludes-stop,node-ogmnl-olstair-platform
+452,excludes-stop,node-ogmnl-washstair-lobby
+452,excludes-stop,node-ogmnl-washstair-street
+453,direction,up
+453,excludes-stop,9328
+453,excludes-stop,WR-0053-S
+453,excludes-stop,door-ogmnl-banks
+453,excludes-stop,door-ogmnl-wash
+453,excludes-stop,door-ogmnl-washel
+453,excludes-stop,node-105-crplatform
+453,excludes-stop,node-105-lobby
+453,excludes-stop,node-451-lobby
+453,excludes-stop,node-451-street
+453,excludes-stop,node-452-lobby
+453,excludes-stop,node-452-street
+453,excludes-stop,node-453-lobby
+453,excludes-stop,node-453-platform
+453,excludes-stop,node-743-lobby
+453,excludes-stop,node-743-platform
+453,excludes-stop,node-744-lobby
+453,excludes-stop,node-745-lobby
+453,excludes-stop,node-745-street
+453,excludes-stop,node-746-lobby
+453,excludes-stop,node-746-platform
+453,excludes-stop,node-800-crplatform
+453,excludes-stop,node-800-lobby
+453,excludes-stop,node-800-street
+453,excludes-stop,node-801-lobby
+453,excludes-stop,node-801-platform
+453,excludes-stop,node-ogmnl-banksstair-lobby
+453,excludes-stop,node-ogmnl-banksstair-street
+453,excludes-stop,node-ogmnl-crstair-crplatform
+453,excludes-stop,node-ogmnl-crstair-lobby
+453,excludes-stop,node-ogmnl-farepaid
+453,excludes-stop,node-ogmnl-fareunpaid
+453,excludes-stop,node-ogmnl-olstair-lobby
+453,excludes-stop,node-ogmnl-olstair-platform
+453,excludes-stop,node-ogmnl-washstair-lobby
+453,excludes-stop,node-ogmnl-washstair-street
 50,alternate-service-text,The elevator at Framingham connecting the Inbound and Outbound platforms is out of service. Please proceed to Concord street to cross over to the outbound platform.
 501,direction,up
 501,excludes-stop,70022
@@ -8807,7 +8865,7 @@ facility_id,property_id,value
 516,excludes-stop,76124
 516,excludes-stop,76125
 516,excludes-stop,76126
-516,excludes-stop,76127
+516,excludes-stop,76129
 516,excludes-stop,door-harsq-brattle
 516,excludes-stop,door-harsq-square
 516,excludes-stop,node-512-landing
@@ -9236,6 +9294,12 @@ facility_id,property_id,value
 703,excludes-stop,node-wondl-oceanstairs-plaza
 703,excludes-stop,node-wondl-plazacenter
 703,excludes-stop,node-wondl-revereramp-top
+704,alternate-service-text,"To travel from the Fitchburg platform to the North Station platform, travel to the east end of the platform and proceed down the ramp to the small parking lot. Continue east on Railroad St. to Main St. At Main St., turn right and continue to Maple St. At Maple St., turn right and continue to the walkway that leads to the platform. To travel from the North Station platform to the Fitchburg platform, travel east on Maple St towards Main St. At Main St., turn left and continue to Railroad St. At Rairoad St., turn lefr and continue to the station, where a ramp to the Fitchburg platform is located next the small parking lot."
+704,excludes-stop,FR-0253
+704,excludes-stop,FR-0253-02
+705,alternate-service-text,"To travel from the North Station platform to the Fitchburg platform, travel east on Maple St towards Main St. At Main St., turn left and continue to Railroad St. At Rairoad St., turn lefr and continue to the station, where a ramp to the Fitchburg platform is located next the small parking lot. To travel from the Fitchburg platform to the North Station platform, travel to the east end of the platform and proceed down the ramp to the small parking lot. Continue east on Railroad St. to Main St. At Main St., turn right and continue to Maple St. At Maple St., turn right and continue to the walkway that leads to the platform."
+705,excludes-stop,FR-0253
+705,excludes-stop,FR-0253-01
 708,alternate-service-text,"To access the pedestrian bridge from the main lobby, use Wonderland Elevators 701, 702 or 703. Exit the elevator at level 2, then turn left and proceed to the pedestrian bridge. To access the main lobby from the pedestrian bridge, proceed to the parking garage--level 2, and use Wonderland Elevators 701, 702 or 703."
 708,excludes-stop,door-wondl-nshore
 708,excludes-stop,door-wondl-ocean
@@ -10238,14 +10302,14 @@ facility_id,property_id,value
 743,excludes-stop,door-ogmnl-banks
 743,excludes-stop,door-ogmnl-wash
 743,excludes-stop,door-ogmnl-washel
-743,excludes-stop,node-102-lobby
-743,excludes-stop,node-102-street
-743,excludes-stop,node-103-lobby
-743,excludes-stop,node-103-platform
-743,excludes-stop,node-104-lobby
-743,excludes-stop,node-104-street
 743,excludes-stop,node-105-crplatform
 743,excludes-stop,node-105-lobby
+743,excludes-stop,node-451-lobby
+743,excludes-stop,node-451-street
+743,excludes-stop,node-452-lobby
+743,excludes-stop,node-452-street
+743,excludes-stop,node-453-lobby
+743,excludes-stop,node-453-platform
 743,excludes-stop,node-743-lobby
 743,excludes-stop,node-743-platform
 743,excludes-stop,node-744-lobby
@@ -10272,14 +10336,14 @@ facility_id,property_id,value
 744,excludes-stop,9328
 744,excludes-stop,door-ogmnl-banks
 744,excludes-stop,door-ogmnl-wash
-744,excludes-stop,node-102-lobby
-744,excludes-stop,node-102-street
-744,excludes-stop,node-103-lobby
-744,excludes-stop,node-103-platform
-744,excludes-stop,node-104-lobby
-744,excludes-stop,node-104-street
 744,excludes-stop,node-105-crplatform
 744,excludes-stop,node-105-lobby
+744,excludes-stop,node-451-lobby
+744,excludes-stop,node-451-street
+744,excludes-stop,node-452-lobby
+744,excludes-stop,node-452-street
+744,excludes-stop,node-453-lobby
+744,excludes-stop,node-453-platform
 744,excludes-stop,node-743-lobby
 744,excludes-stop,node-743-platform
 744,excludes-stop,node-744-lobby
@@ -10307,14 +10371,14 @@ facility_id,property_id,value
 745,excludes-stop,WR-0053-S
 745,excludes-stop,door-ogmnl-wash
 745,excludes-stop,door-ogmnl-washel
-745,excludes-stop,node-102-lobby
-745,excludes-stop,node-102-street
-745,excludes-stop,node-103-lobby
-745,excludes-stop,node-103-platform
-745,excludes-stop,node-104-lobby
-745,excludes-stop,node-104-street
 745,excludes-stop,node-105-crplatform
 745,excludes-stop,node-105-lobby
+745,excludes-stop,node-451-lobby
+745,excludes-stop,node-451-street
+745,excludes-stop,node-452-lobby
+745,excludes-stop,node-452-street
+745,excludes-stop,node-453-lobby
+745,excludes-stop,node-453-platform
 745,excludes-stop,node-743-lobby
 745,excludes-stop,node-743-platform
 745,excludes-stop,node-744-lobby
@@ -10343,14 +10407,14 @@ facility_id,property_id,value
 746,excludes-stop,door-ogmnl-banks
 746,excludes-stop,door-ogmnl-wash
 746,excludes-stop,door-ogmnl-washel
-746,excludes-stop,node-102-lobby
-746,excludes-stop,node-102-street
-746,excludes-stop,node-103-lobby
-746,excludes-stop,node-103-platform
-746,excludes-stop,node-104-lobby
-746,excludes-stop,node-104-street
 746,excludes-stop,node-105-crplatform
 746,excludes-stop,node-105-lobby
+746,excludes-stop,node-451-lobby
+746,excludes-stop,node-451-street
+746,excludes-stop,node-452-lobby
+746,excludes-stop,node-452-street
+746,excludes-stop,node-453-lobby
+746,excludes-stop,node-453-platform
 746,excludes-stop,node-743-lobby
 746,excludes-stop,node-743-platform
 746,excludes-stop,node-744-lobby
@@ -10376,9 +10440,18 @@ facility_id,property_id,value
 747,alternate-service-text,"A shuttle bus will be available to transport customers between Winchester Center and North Stations. To exit, exit the train at North Station and find station personnel or use a station call box to request the shuttle bus to Winchester Center. To board, find station personnel or use a station call box at Winchester Center to request the shuttle bus to North Station."
 747,excludes-stop,NHRML-0078
 747,excludes-stop,NHRML-0078-01
-748,alternate-service-text,"A shuttle bus will be available to transport customers between Winchester Center and North Stations. To exit, exit the train at North Station and find station personnel or use a station call box to request the shuttle bus to Winchester Center. To board, find station personnel or use a station call box at Winchester Center to request the shuttle bus to North Station."
+748,alternate-service-text,Please use nearby Winchester Center Elevator 749.
 748,excludes-stop,NHRML-0078
 748,excludes-stop,NHRML-0078-02
+749,alternate-service-text,Please use nearby Winchester Center Elevator 748.
+749,excludes-stop,NHRML-0078
+749,excludes-stop,NHRML-0078-02
+750,alternate-service-text,To exit: Go to the east end of the platform. Take the ramp to Washington St. To board: Go east on North Ave for one block. Turn right on Washington St. Take the ramp to the outbound platform.
+750,excludes-stop,WML-0177
+750,excludes-stop,WML-0177-02
+751,alternate-service-text,To exit: Go to the east end of the platform. Take the ramp to Washington St. To board: Go south on Main St. Turn left on South Ave and go one block. Turn left on Washington St. Take the ramp to the inbound platform.
+751,excludes-stop,WML-0177
+751,excludes-stop,WML-0177-01
 756,alternate-service-text,Please use nearby Kendall/MIT Elevator 757.
 756,excludes-stop,70072
 756,excludes-stop,door-knncl-nbmain
@@ -10556,18 +10629,48 @@ facility_id,property_id,value
 772,excludes-stop,node-772-top
 772,excludes-stop,node-mdftf-stairs-bottom
 772,excludes-stop,node-mdftf-stairs-top
+778,excludes-stop,door-NBM-0374-elevator
+778,excludes-stop,door-NBM-0374-ramp
+778,excludes-stop,node-778-bridge
+778,excludes-stop,node-778-parking
+778,excludes-stop,node-779-bridge
+778,excludes-stop,node-779-platform
+778,excludes-stop,node-NBM-0374-entryramp-bridge
+778,excludes-stop,node-NBM-0374-entrystair-bridge
+778,excludes-stop,node-NBM-0374-entrystair-parking
+778,excludes-stop,node-NBM-0374-northramp-bridge
+778,excludes-stop,node-NBM-0374-northramp-platform
+778,excludes-stop,node-NBM-0374-northstair-bridge
+778,excludes-stop,node-NBM-0374-northstair-platform
+778,excludes-stop,node-NBM-0374-southstair-bridge
+778,excludes-stop,node-NBM-0374-southstair-platform
+779,excludes-stop,door-NBM-0374-elevator
+779,excludes-stop,door-NBM-0374-ramp
+779,excludes-stop,node-778-bridge
+779,excludes-stop,node-778-parking
+779,excludes-stop,node-779-bridge
+779,excludes-stop,node-779-platform
+779,excludes-stop,node-NBM-0374-entryramp-bridge
+779,excludes-stop,node-NBM-0374-entrystair-bridge
+779,excludes-stop,node-NBM-0374-entrystair-parking
+779,excludes-stop,node-NBM-0374-northramp-bridge
+779,excludes-stop,node-NBM-0374-northramp-platform
+779,excludes-stop,node-NBM-0374-northstair-bridge
+779,excludes-stop,node-NBM-0374-northstair-platform
+779,excludes-stop,node-NBM-0374-southstair-bridge
+779,excludes-stop,node-NBM-0374-southstair-platform
 800,alternate-service-text,"To exit, upon exiting the faregates, turn left and proceed to Oak Grove Elevator 745 to access the busway and parking lot. To board, proceed to the station entrance located near the busway and use Oak Grove Elevator 745 to access the lobby. Alternatively, customers may utilize the Oak Grove Elevator 744 (Lobby to Washington St) located at the station entrance on Washington St."
 800,excludes-stop,9328
 800,excludes-stop,door-ogmnl-wash
 800,excludes-stop,door-ogmnl-washel
-800,excludes-stop,node-102-lobby
-800,excludes-stop,node-102-street
-800,excludes-stop,node-103-lobby
-800,excludes-stop,node-103-platform
-800,excludes-stop,node-104-lobby
-800,excludes-stop,node-104-street
 800,excludes-stop,node-105-crplatform
 800,excludes-stop,node-105-lobby
+800,excludes-stop,node-451-lobby
+800,excludes-stop,node-451-street
+800,excludes-stop,node-452-lobby
+800,excludes-stop,node-452-street
+800,excludes-stop,node-453-lobby
+800,excludes-stop,node-453-platform
 800,excludes-stop,node-743-lobby
 800,excludes-stop,node-743-platform
 800,excludes-stop,node-744-lobby
@@ -10596,14 +10699,14 @@ facility_id,property_id,value
 801,excludes-stop,door-ogmnl-banks
 801,excludes-stop,door-ogmnl-wash
 801,excludes-stop,door-ogmnl-washel
-801,excludes-stop,node-102-lobby
-801,excludes-stop,node-102-street
-801,excludes-stop,node-103-lobby
-801,excludes-stop,node-103-platform
-801,excludes-stop,node-104-lobby
-801,excludes-stop,node-104-street
 801,excludes-stop,node-105-crplatform
 801,excludes-stop,node-105-lobby
+801,excludes-stop,node-451-lobby
+801,excludes-stop,node-451-street
+801,excludes-stop,node-452-lobby
+801,excludes-stop,node-452-street
+801,excludes-stop,node-453-lobby
+801,excludes-stop,node-453-platform
 801,excludes-stop,node-743-lobby
 801,excludes-stop,node-743-platform
 801,excludes-stop,node-744-lobby
@@ -11220,6 +11323,12 @@ facility_id,property_id,value
 812,excludes-stop,node-pktrm-wintfare-unpaid
 813,alternate-service-text,"To exit, use Elevator 961 located at the opposite end of the platform. To board, travel east down the Alewife Linear Path to the Russell Field entrance, and use Elevator 961."
 813,excludes-stop,141
+813,excludes-stop,14112
+813,excludes-stop,14118
+813,excludes-stop,14120
+813,excludes-stop,14121
+813,excludes-stop,14122
+813,excludes-stop,14123
 813,excludes-stop,9070061
 813,excludes-stop,door-alfcl-alewife
 813,excludes-stop,door-alfcl-alewifes
@@ -11311,6 +11420,12 @@ facility_id,property_id,value
 813,excludes-stop,node-alfcl-wgaragestairs-third
 814,alternate-service-text,Please use the nearby Alewife Elevator 815.
 814,excludes-stop,141
+814,excludes-stop,14112
+814,excludes-stop,14118
+814,excludes-stop,14120
+814,excludes-stop,14121
+814,excludes-stop,14122
+814,excludes-stop,14123
 814,excludes-stop,9070061
 814,excludes-stop,door-alfcl-alewife
 814,excludes-stop,door-alfcl-alewifes
@@ -11402,6 +11517,12 @@ facility_id,property_id,value
 814,excludes-stop,node-alfcl-wgaragestairs-third
 815,alternate-service-text,Please use the nearby Alewife Elevator 814.
 815,excludes-stop,141
+815,excludes-stop,14112
+815,excludes-stop,14118
+815,excludes-stop,14120
+815,excludes-stop,14121
+815,excludes-stop,14122
+815,excludes-stop,14123
 815,excludes-stop,9070061
 815,excludes-stop,door-alfcl-alewife
 815,excludes-stop,door-alfcl-alewifes
@@ -11777,6 +11898,7 @@ facility_id,property_id,value
 831,excludes-stop,node-jfk-sydneysstair-lobby
 840,alternate-service-text,"To exit when traveling on a Forest Hills-bound train, exit onto the center platform and wait for an Oak Grove train to arrive. When the train arrives, cross through the train over to the opposite platform and use Sullivan Elevator 881. To exit the train when traveling on an Oak Grove-bound train, exit the right side of the train onto the Oak Grove platform and use Sullivan Elevator 881. To board a Forest Hills-bound train, use Sullivan Elevator 881 to access the Oak Grove platform, then wait for an Oak Grove-bound train to arrive. When the train arrives, cross through the train over to the center platform."
 840,excludes-stop,29001
+840,excludes-stop,29002
 840,excludes-stop,29003
 840,excludes-stop,29004
 840,excludes-stop,29005
@@ -11788,7 +11910,6 @@ facility_id,property_id,value
 840,excludes-stop,29011
 840,excludes-stop,29012
 840,excludes-stop,29013
-840,excludes-stop,29014
 840,excludes-stop,door-sull-main
 840,excludes-stop,node-307-lobby
 840,excludes-stop,node-307-platform
@@ -12996,6 +13117,7 @@ facility_id,property_id,value
 880,excludes-stop,node-andrw-sobstairs-platform
 881,alternate-service-text,"To exit, exit the left side of the train onto the center platform and use Sullivan Elevator 840. To board, use Sullivan Elevator 840 to access the center platform."
 881,excludes-stop,29001
+881,excludes-stop,29002
 881,excludes-stop,29003
 881,excludes-stop,29004
 881,excludes-stop,29005
@@ -13007,7 +13129,6 @@ facility_id,property_id,value
 881,excludes-stop,29011
 881,excludes-stop,29012
 881,excludes-stop,29013
-881,excludes-stop,29014
 881,excludes-stop,70030
 881,excludes-stop,door-sull-main
 881,excludes-stop,node-307-lobby
@@ -15095,6 +15216,7 @@ facility_id,property_id,value
 931,alternate-service-text,"To access the Bowdoin platform or Bremen St lobby from the Wonderland platform, use Airport Elevator 956 located in the unpaid section of the busway lobby. To access the Wonderland platform or Airport busway from the Bowdoin platform, use Airport Elevator 955 located in the unpaid section of the Bremen St lobby."
 931,excludes-stop,70047
 931,excludes-stop,7096
+931,excludes-stop,70961
 931,excludes-stop,7097
 931,excludes-stop,door-aport-bremen
 931,excludes-stop,door-aport-buses
@@ -15129,6 +15251,7 @@ facility_id,property_id,value
 932,alternate-service-text,"To access the Wonderland platform or Airport busway from the Bowdoin platform, use Airport Elevator 955 located in the unpaid section of the Bremen St lobby. To access the Bowdoin platform or Bremen St lobby from the Wonderland platform, use Airport Elevator 956 located in the unpaid section of the busway lobby."
 932,excludes-stop,70048
 932,excludes-stop,7096
+932,excludes-stop,70961
 932,excludes-stop,7097
 932,excludes-stop,door-aport-bremen
 932,excludes-stop,door-aport-buses
@@ -15727,6 +15850,7 @@ facility_id,property_id,value
 955,excludes-stop,70047
 955,excludes-stop,70048
 955,excludes-stop,7096
+955,excludes-stop,70961
 955,excludes-stop,7097
 955,excludes-stop,node-407-bridge
 955,excludes-stop,node-407-platform
@@ -15760,6 +15884,7 @@ facility_id,property_id,value
 956,excludes-stop,70047
 956,excludes-stop,70048
 956,excludes-stop,7096
+956,excludes-stop,70961
 956,excludes-stop,7097
 956,excludes-stop,node-407-bridge
 956,excludes-stop,node-407-platform
@@ -15829,6 +15954,12 @@ facility_id,property_id,value
 958,excludes-stop,node-fldcr-fareunpaid
 961,alternate-service-text,"To exit, use Elevator 813 located at the opposite end of the platform to access the main lobby. To board, travel west down the Alewife Linear Path to the main station entrance and use Elevator 813."
 961,excludes-stop,141
+961,excludes-stop,14112
+961,excludes-stop,14118
+961,excludes-stop,14120
+961,excludes-stop,14121
+961,excludes-stop,14122
+961,excludes-stop,14123
 961,excludes-stop,9070061
 961,excludes-stop,door-alfcl-alewife
 961,excludes-stop,door-alfcl-alewifes
@@ -16946,13 +17077,9 @@ facility_id,property_id,value
 993,excludes-stop,WML-0025
 993,excludes-stop,WML-0025-05
 994,alternate-service-text,Please use nearby Beverly Elevator 995.
-994,excludes-stop,ER-0183-B
 995,alternate-service-text,Please use nearby Beverly Elevator 994.
-995,excludes-stop,ER-0183-B
 996,alternate-service-text,Please use nearby Salem Elevator 997.
-996,excludes-stop,ER-0168-B
 997,alternate-service-text,Please use nearby Salem Elevator 996.
-997,excludes-stop,ER-0168-B
 998,alternate-service-text,Please use nearby Downtown Crossing Elevator 999.
 998,excludes-stop,70020
 998,excludes-stop,70077
@@ -17270,6 +17397,12 @@ bike-FR-0494,secured,2
 bike-FR-3338,capacity,12
 bike-FR-3338,enclosed,1
 bike-FR-3338,secured,2
+bike-FRS-0054-storage,capacity,22
+bike-FRS-0054-storage,enclosed,1
+bike-FRS-0054-storage,secured,2
+bike-FRS-0109-storage,capacity,22
+bike-FRS-0109-storage,enclosed,1
+bike-FRS-0109-storage,secured,2
 bike-GB-0198,capacity,9
 bike-GB-0198,enclosed,2
 bike-GB-0198,secured,2
@@ -17312,6 +17445,9 @@ bike-GRB-0276,secured,2
 bike-KB-0351,capacity,32
 bike-KB-0351,enclosed,2
 bike-KB-0351,secured,2
+bike-MBS-0350-storage,capacity,22
+bike-MBS-0350-storage,enclosed,1
+bike-MBS-0350-storage,secured,2
 bike-MM-0150,capacity,18
 bike-MM-0150,enclosed,1
 bike-MM-0150,secured,2
@@ -17354,6 +17490,15 @@ bike-NB-0127,secured,2
 bike-NB-0137,capacity,7
 bike-NB-0137,enclosed,2
 bike-NB-0137,secured,2
+bike-NBM-0374-storage,capacity,22
+bike-NBM-0374-storage,enclosed,1
+bike-NBM-0374-storage,secured,2
+bike-NBM-0523-storage,capacity,22
+bike-NBM-0523-storage,enclosed,1
+bike-NBM-0523-storage,secured,2
+bike-NBM-0546-storage,capacity,22
+bike-NBM-0546-storage,enclosed,1
+bike-NBM-0546-storage,secured,2
 bike-NEC-1659,capacity,8
 bike-NEC-1659,enclosed,2
 bike-NEC-1659,secured,2
@@ -17426,6 +17571,9 @@ bike-WML-0135,secured,2
 bike-WML-0147,capacity,12
 bike-WML-0147,enclosed,1
 bike-WML-0147,secured,2
+bike-WML-0177,capacity,40
+bike-WML-0177,enclosed,1
+bike-WML-0177,secured,2
 bike-WML-0199,capacity,32
 bike-WML-0199,enclosed,2
 bike-WML-0199,secured,2
@@ -17783,6 +17931,14 @@ ev-FR-0301,capacity,4
 ev-FR-0451-garage,capacity,4
 ev-FR-0494-garage,capacity,4
 ev-FR-3338-garage,capacity,4
+ev-FRS-0054,capacity,2
+ev-FRS-0109,capacity,3
+ev-MBS-0350,capacity,5
+ev-MM-0200-garage,capacity,2
+ev-MM-0200-lot,capacity,2
+ev-NBM-0374,capacity,5
+ev-NBM-0523,capacity,5
+ev-NBM-0546,capacity,4
 ev-NEC-1659-garage,capacity,10
 ev-NEC-2173-garage,capacity,4
 ev-NHRML-0152,capacity,2
@@ -17795,7 +17951,9 @@ ev-wondl-garage,capacity,4
 ev-woodl-garage,capacity,4
 fake_5a7e_af2a_395,excludes-stop,NEC-2173
 fake_99c7_af2a_392,excludes-stop,NHRML-0254
+fake_99c7_af2a_392,excludes-stop,NHRML-0254-B
 fake_99c7_c4e9_391,excludes-stop,NHRML-0254
+fake_99c7_c4e9_391,excludes-stop,NHRML-0254-B
 fake_b748_c4e7_402,excludes-stop,NEC-1891
 fake_b748_c4e7_402,excludes-stop,NEC-1891-02
 fake_b748_c4e7_402,excludes-stop,door-NEC-1891-barton
@@ -20176,6 +20334,8 @@ highlevel-FR-0301-1,note,Full high level platform is available to provide level 
 highlevel-FR-0301-2,excludes-stop,FR-0301-01
 highlevel-FR-0301-2,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-FR-3338-3,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-FRS-0054-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-FRS-0109-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-GRB-0118-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-GRB-0146-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-GRB-0162-1,note,Full high level platform is available to provide level boarding to every car in a train set
@@ -20184,6 +20344,7 @@ highlevel-GRB-0199-1,note,Full high level platform is available to provide level
 highlevel-GRB-0233-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-GRB-0276-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-KB-0351-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-MBS-0350-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-MM-0150-1,excludes-stop,4255
 highlevel-MM-0150-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-MM-0186-1,excludes-stop,39870
@@ -20199,6 +20360,9 @@ highlevel-MM-0200-2,note,Full high level platform is available to provide level 
 highlevel-MM-0219-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-MM-0277-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-MM-0356-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-NBM-0374-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-NBM-0523-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-NBM-0546-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-NEC-1659-3,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-NEC-1768-3,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-NEC-1851-1,excludes-stop,NEC-1851-02
@@ -20254,6 +20418,11 @@ highlevel-WML-0035-1,excludes-stop,WML-0035-02
 highlevel-WML-0035-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-WML-0035-2,excludes-stop,WML-0035-01
 highlevel-WML-0035-2,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-WML-0177-1,excludes-stop,WML-0177-01
+highlevel-WML-0177-1,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-WML-0177-2,excludes-stop,WML-0177-02
+highlevel-WML-0177-2,note,Full high level platform is available to provide level boarding to every car in a train set
+highlevel-WR-0163-1,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-WR-0264-2,note,Full high level platform is available to provide level boarding to every car in a train set
 highlevel-bbsta-1,excludes-stop,11384
 highlevel-bbsta-1,excludes-stop,176
@@ -20949,7 +21118,6 @@ park-ER-0115-garage,owner,MBTA
 park-ER-0115-garage,payment-app,PayByPhone
 park-ER-0115-garage,payment-app-id,4237
 park-ER-0115-garage,payment-app-url,https://www.paybyphone.com/
-park-ER-0115-garage,payment-form-accepted,cash
 park-ER-0115-garage,payment-form-accepted,mobile-app
 park-ER-0115-garage,weekday-typical-utilization,127
 park-ER-0117-ellis,attended,2
@@ -20985,7 +21153,6 @@ park-ER-0117-garage,owner,MBTA
 park-ER-0117-garage,payment-app,PayByPhone
 park-ER-0117-garage,payment-app-id,4237
 park-ER-0117-garage,payment-app-url,https://www.paybyphone.com/
-park-ER-0117-garage,payment-form-accepted,cash
 park-ER-0117-garage,payment-form-accepted,mobile-app
 park-ER-0117-garage,weekday-typical-utilization,127
 park-ER-0128,attended,2
@@ -21533,7 +21700,7 @@ park-FR-0494-garage,payment-form-accepted,credit-debit-card
 park-FR-3338-garage,attended,1
 park-FR-3338-garage,capacity,369
 park-FR-3338-garage,capacity-accessible,8
-park-FR-3338-garage,contact,MRTA MART Transit
+park-FR-3338-garage,contact,MART Transit
 park-FR-3338-garage,contact-phone,978-345-7711
 park-FR-3338-garage,contact-url,http://www.mrta.us
 park-FR-3338-garage,enclosed,1
@@ -21545,6 +21712,40 @@ park-FR-3338-garage,operator,Montachusett Regional Transit Authority
 park-FR-3338-garage,owner,Local transit authority
 park-FR-3338-garage,payment-form-accepted,cash
 park-FR-3338-garage,payment-form-accepted,credit-debit-card
+park-FRS-0054,attended,2
+park-FRS-0054,capacity,113
+park-FRS-0054,capacity-accessible,7
+park-FRS-0054,contact,MBTA Customer Support
+park-FRS-0054,contact-phone,617-222-3200
+park-FRS-0054,contact-url,https://www.mbta.com/customer-support
+park-FRS-0054,enclosed,2
+park-FRS-0054,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-FRS-0054,municipality,Freetown
+park-FRS-0054,operator,Keolis Commuter Services
+park-FRS-0054,overnight-allowed,no
+park-FRS-0054,owner,MBTA
+park-FRS-0054,payment-app,PayByPhone
+park-FRS-0054,payment-app-id,44203
+park-FRS-0054,payment-app-url,https://www.paybyphone.com/
+park-FRS-0054,payment-form-accepted,invoice
+park-FRS-0054,payment-form-accepted,mobile-app
+park-FRS-0109,attended,2
+park-FRS-0109,capacity,220
+park-FRS-0109,capacity-accessible,9
+park-FRS-0109,contact,MBTA Customer Support
+park-FRS-0109,contact-phone,617-222-3200
+park-FRS-0109,contact-url,https://www.mbta.com/customer-support
+park-FRS-0109,enclosed,2
+park-FRS-0109,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-FRS-0109,municipality,Fall River 
+park-FRS-0109,operator,Keolis Commuter Services
+park-FRS-0109,overnight-allowed,no
+park-FRS-0109,owner,MBTA
+park-FRS-0109,payment-app,PayByPhone
+park-FRS-0109,payment-app-id,44202
+park-FRS-0109,payment-app-url,https://www.paybyphone.com/
+park-FRS-0109,payment-form-accepted,invoice
+park-FRS-0109,payment-form-accepted,mobile-app
 park-FS-0049,attended,2
 park-FS-0049,capacity,500
 park-FS-0049,capacity-accessible,9
@@ -21800,6 +22001,23 @@ park-KB-0351,payment-app-url,https://www.paybyphone.com/
 park-KB-0351,payment-form-accepted,invoice
 park-KB-0351,payment-form-accepted,mobile-app
 park-KB-0351,weekday-typical-utilization,404
+park-MBS-0350,attended,2
+park-MBS-0350,capacity,500
+park-MBS-0350,capacity-accessible,17
+park-MBS-0350,contact,MBTA Customer Support
+park-MBS-0350,contact-phone,617-222-3200
+park-MBS-0350,contact-url,https://www.mbta.com/customer-support
+park-MBS-0350,enclosed,2
+park-MBS-0350,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-MBS-0350,municipality,Middleborough
+park-MBS-0350,operator,Keolis Commuter Services
+park-MBS-0350,overnight-allowed,no
+park-MBS-0350,owner,MBTA
+park-MBS-0350,payment-app,PayByPhone
+park-MBS-0350,payment-app-id,44204
+park-MBS-0350,payment-app-url,https://www.paybyphone.com/
+park-MBS-0350,payment-form-accepted,invoice
+park-MBS-0350,payment-form-accepted,mobile-app
 park-MM-0150,attended,2
 park-MM-0150,capacity,362
 park-MM-0150,capacity-accessible,14
@@ -21839,23 +22057,42 @@ park-MM-0186,payment-form-accepted,invoice
 park-MM-0186,payment-form-accepted,mobile-app
 park-MM-0186,weekday-typical-utilization,165
 park-MM-0200-garage,attended,1
-park-MM-0200-garage,capacity,266
-park-MM-0200-garage,capacity-accessible,10
+park-MM-0200-garage,capacity,265
+park-MM-0200-garage,capacity-accessible,6
 park-MM-0200-garage,contact,BAT
 park-MM-0200-garage,contact-phone,508-588-1000
 park-MM-0200-garage,contact-url,http://www.ridebat.com/about/parking/
 park-MM-0200-garage,enclosed,1
-park-MM-0200-garage,fee-daily,"$4 cash or credit, $3 mPay2Park or Smart Card"
+park-MM-0200-garage,fee-daily,Mon-Fri: $3 | Sat-Sun: $3
+park-MM-0200-garage,fee-monthly,Monthly permits available. Email info@ridebat.com for more information
 park-MM-0200-garage,municipality,Brockton
-park-MM-0200-garage,note,"Brockton Area Transit Authority (BAT) is responsible for parking maintenance, payments, and snow removal."
-park-MM-0200-garage,operator,Brockton Area Transit Authority
+park-MM-0200-garage,note,"Brockton Area Transit Authority (BAT) is responsible for parking maintenance, and snow removal."
+park-MM-0200-garage,operator,BAT
+park-MM-0200-garage,overnight-allowed,no
 park-MM-0200-garage,owner,Local transit authority
-park-MM-0200-garage,payment-app,mPay2Park
-park-MM-0200-garage,payment-app-url,http://mpay2park.com/
-park-MM-0200-garage,payment-form-accepted,cash
-park-MM-0200-garage,payment-form-accepted,credit-debit-card
+park-MM-0200-garage,payment-app,PayByPhone
+park-MM-0200-garage,payment-app-id,44200
+park-MM-0200-garage,payment-app-url,https://www.paybyphone.com/
+park-MM-0200-garage,payment-form-accepted,invoice
 park-MM-0200-garage,payment-form-accepted,mobile-app
-park-MM-0200-garage,payment-form-accepted,smartcard
+park-MM-0200-lot,attended,2
+park-MM-0200-lot,capacity,100
+park-MM-0200-lot,capacity-accessible,5
+park-MM-0200-lot,contact,BAT
+park-MM-0200-lot,contact-phone,508-588-1000
+park-MM-0200-lot,contact-url,http://www.ridebat.com/about/parking/
+park-MM-0200-lot,enclosed,2
+park-MM-0200-lot,fee-daily,Mon-Fri: $3 | Sat-Sun: $3
+park-MM-0200-lot,fee-monthly,Monthly permits available. Email info@ridebat.com for more information
+park-MM-0200-lot,municipality,Brockton
+park-MM-0200-lot,note,"Brockton Area Transit Authority (BAT) is responsible for parking maintenance, and snow removal."
+park-MM-0200-lot,operator,BAT
+park-MM-0200-lot,owner,Local transit authority
+park-MM-0200-lot,payment-app,PayByPhone
+park-MM-0200-lot,payment-app-id,44200
+park-MM-0200-lot,payment-app-url,https://www.paybyphone.com/
+park-MM-0200-lot,payment-form-accepted,invoice
+park-MM-0200-lot,payment-form-accepted,mobile-app
 park-MM-0219,attended,2
 park-MM-0219,capacity,552
 park-MM-0219,capacity-accessible,11
@@ -22060,6 +22297,55 @@ park-NB-0137,payment-app-url,https://www.paybyphone.com/
 park-NB-0137,payment-form-accepted,invoice
 park-NB-0137,payment-form-accepted,mobile-app
 park-NB-0137,weekday-typical-utilization,66
+park-NBM-0374,attended,2
+park-NBM-0374,capacity,387
+park-NBM-0374,capacity-accessible,11
+park-NBM-0374,contact,MBTA Customer Support
+park-NBM-0374,contact-phone,617-222-3200
+park-NBM-0374,contact-url,https://www.mbta.com/customer-support
+park-NBM-0374,enclosed,2
+park-NBM-0374,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-NBM-0374,municipality,East Taunton
+park-NBM-0374,operator,Keolis Commuter Services
+park-NBM-0374,overnight-allowed,no
+park-NBM-0374,owner,MBTA
+park-NBM-0374,payment-app,PayByPhone
+park-NBM-0374,payment-app-id,44205
+park-NBM-0374,payment-app-url,https://www.paybyphone.com/
+park-NBM-0374,payment-form-accepted,invoice
+park-NBM-0374,payment-form-accepted,mobile-app
+park-NBM-0523,attended,2
+park-NBM-0523,capacity,355
+park-NBM-0523,capacity-accessible,10
+park-NBM-0523,contact,MBTA Customer Support
+park-NBM-0523,contact-phone,617-222-3200
+park-NBM-0523,contact-url,https://www.mbta.com/customer-support
+park-NBM-0523,enclosed,2
+park-NBM-0523,fee-daily,Mon-Fri: $4 | Sat-Sun: $2
+park-NBM-0523,municipality,New Bedford 
+park-NBM-0523,operator,Keolis Commuter Services
+park-NBM-0523,overnight-allowed,no
+park-NBM-0523,owner,MBTA
+park-NBM-0523,payment-app,PayByPhone
+park-NBM-0523,payment-app-id,44206
+park-NBM-0523,payment-app-url,https://www.paybyphone.com/
+park-NBM-0523,payment-form-accepted,invoice
+park-NBM-0523,payment-form-accepted,mobile-app
+park-NBM-0546,attended,2
+park-NBM-0546,capacity,150
+park-NBM-0546,capacity-accessible,13
+park-NBM-0546,contact,New Bedford Port Authority
+park-NBM-0546,contact-phone,508-961-3000
+park-NBM-0546,contact-url,https://portofnewbedford.org/
+park-NBM-0546,enclosed,2
+park-NBM-0546,fee-daily,Mon-Fri: $4 | Sat-Sun: $2 | Overnight: $15 per day
+park-NBM-0546,municipality,New Bedford 
+park-NBM-0546,operator,New Bedford Port Authority
+park-NBM-0546,overnight-allowed,yes-except-snow
+park-NBM-0546,owner,New Bedford Port Authority
+park-NBM-0546,payment-app,xpresspark
+park-NBM-0546,payment-form-accepted,credit-debit-card
+park-NBM-0546,payment-form-accepted,mobile-app
 park-NEC-1659-garage,attended,1
 park-NEC-1659-garage,capacity,1100
 park-NEC-1659-garage,contact,Rhode Island Department of Transportation
@@ -22116,7 +22402,7 @@ park-NEC-1919,contact,MBTA Customer Support
 park-NEC-1919,contact-phone,617-222-3200
 park-NEC-1919,contact-url,https://www.mbta.com/customer-support
 park-NEC-1919,enclosed,2
-park-NEC-1919,fee-daily,"The South Attleboro Parking Lot will be free starting Tuesday October 1, 2024, until Tuesday April, 1st, 2025."
+park-NEC-1919,fee-daily,"The South Attleboro Parking Lot will be free starting October 1st, 2024, until October 1st, 2025."
 park-NEC-1919,municipality,Attleboro
 park-NEC-1919,note,Temporary Price Reduction. 
 park-NEC-1919,operator,Keolis Commuter Services
@@ -22378,6 +22664,9 @@ park-NHRML-0218-station,payment-form-accepted,mobile-app
 park-NHRML-0254-garage,attended,1
 park-NHRML-0254-garage,capacity,695
 park-NHRML-0254-garage,capacity-accessible,7
+park-NHRML-0254-garage,contact,Lowell Regional Transit Authority
+park-NHRML-0254-garage,contact-phone,978-459-0164 ext. 206
+park-NHRML-0254-garage,contact-url,http://lrta.com/parking/
 park-NHRML-0254-garage,enclosed,1
 park-NHRML-0254-garage,fee-daily,"$8 daily, $16 overnight"
 park-NHRML-0254-garage,fee-monthly,$70
@@ -22654,13 +22943,18 @@ park-WML-0177,capacity,71
 park-WML-0177,capacity-accessible,4
 park-WML-0177,contact,"Town of Natick, Community & Economic Development Office"
 park-WML-0177,contact-phone,508-647-6450
-park-WML-0177,contact-url,http://www.natickma.gov/166/Transportation-Parking
+park-WML-0177,contact-url,https://www.natickma.gov/2154/Parking-Driving
 park-WML-0177,enclosed,2
-park-WML-0177,fee-daily,Town permit required
+park-WML-0177,fee-daily,$7
 park-WML-0177,municipality,Natick
 park-WML-0177,note,"Town of Natick is responsible for parking maintenance, payments, and snow removal."
 park-WML-0177,operator,Town of Natick
+park-WML-0177,overnight-allowed,no
 park-WML-0177,owner,City/Town
+park-WML-0177,payment-app,PassportParking
+park-WML-0177,payment-app-id,4309
+park-WML-0177,payment-app-url,https://ppprk.com/park/
+park-WML-0177,payment-form-accepted,mobile-app
 park-WML-0199,attended,2
 park-WML-0199,capacity,178
 park-WML-0199,capacity-accessible,6
@@ -23202,7 +23496,7 @@ park-forhl,payment-form-accepted,mobile-app
 park-forhl,weekday-typical-utilization,180
 park-longw,attended,2
 park-longw,capacity,11
-park-longw,contact,LRTA Parking
+park-longw,contact,"Town of Brookline, Transportation Division"
 park-longw,contact-phone,617-730-2177
 park-longw,contact-url,http://www.brooklinema.gov/147/Parking-Meters
 park-longw,enclosed,2
@@ -23299,7 +23593,7 @@ park-nqncy-newport,contact-phone,617-222-3200
 park-nqncy-newport,contact-url,https://www.mbta.com/customer-support
 park-nqncy-newport,enclosed,2
 park-nqncy-newport,fee-daily,Mon-Fri: $5 | Sat-Sun: $3
-park-nqncy-newport,fee-monthly,Monthly passes are not available at this MBTA lot.
+park-nqncy-newport,fee-monthly,$87.50
 park-nqncy-newport,municipality,Quincy
 park-nqncy-newport,operator,Keolis Commuter Services
 park-nqncy-newport,overnight-allowed,no
@@ -23774,565 +24068,650 @@ portlift-woodl-0,excludes-stop,70163
 portlift-woodl-0,note,Customers can board/exit certain trains using mobile lift
 portlift-woodl-1,excludes-stop,70162
 portlift-woodl-1,note,Customers can board/exit certain trains using mobile lift
-retailsale-302005,address,"781 Tremont St, Boston, MA 02118"
-retailsale-302005,contact-phone,617-536 2722
+retailsale-302000,address,"370 Western Ave, Brighton, MA 02135"
+retailsale-302000,contact-phone,617-787-5266
+retailsale-302000,dispenses,fare-media
+retailsale-302000,enclosed,1
+retailsale-302000,payment-form-accepted,cash
+retailsale-302000,payment-form-accepted,credit-debit-card
+retailsale-302001,address,"20 Brook Street, Quincy, MA 02170"
+retailsale-302001,contact-phone,617-770-4740
+retailsale-302001,dispenses,fare-media
+retailsale-302001,enclosed,1
+retailsale-302001,payment-form-accepted,cash
+retailsale-302001,payment-form-accepted,credit-debit-card
+retailsale-302002,address,"451 Columbia Rd, Dorchester, MA 02125"
+retailsale-302002,contact-phone,617-436-7262
+retailsale-302002,dispenses,fare-media
+retailsale-302002,enclosed,1
+retailsale-302002,payment-form-accepted,cash
+retailsale-302002,payment-form-accepted,credit-debit-card
+retailsale-302003,address,"131 Lexington Street, Waltham, MA 02451"
+retailsale-302003,contact-phone,781-893-1333
+retailsale-302003,dispenses,fare-media
+retailsale-302003,enclosed,1
+retailsale-302003,payment-form-accepted,cash
+retailsale-302003,payment-form-accepted,credit-debit-card
+retailsale-302004,address,"535 Trapelo Rd., Belmont, MA 02478"
+retailsale-302004,contact-phone,617-489-6540
+retailsale-302004,dispenses,fare-media
+retailsale-302004,enclosed,1
+retailsale-302004,payment-form-accepted,cash
+retailsale-302004,payment-form-accepted,credit-debit-card
+retailsale-302005,address,"1305 Broadway, Somerville, MA 02144"
+retailsale-302005,contact-phone,508-737-7702
 retailsale-302005,dispenses,fare-media
 retailsale-302005,enclosed,1
 retailsale-302005,payment-form-accepted,cash
 retailsale-302005,payment-form-accepted,credit-debit-card
-retailsale-302006,address,"55 Warren St, Roxbury, MA 02119"
-retailsale-302006,contact-phone,617-445 2818
-retailsale-302006,dispenses,fare-media
-retailsale-302006,enclosed,1
-retailsale-302006,payment-form-accepted,cash
-retailsale-302006,payment-form-accepted,credit-debit-card
-retailsale-302013,address,"4 River St, Dorchester, MA 02122"
-retailsale-302013,contact-phone,617-298-1462
+retailsale-302007,address,"82 River Street, Mattapan, MA 02126"
+retailsale-302007,contact-phone,617-296-7032
+retailsale-302007,dispenses,fare-media
+retailsale-302007,enclosed,1
+retailsale-302007,payment-form-accepted,cash
+retailsale-302007,payment-form-accepted,credit-debit-card
+retailsale-302008,address,"482 Blue Hill Avenue, Dorchester, MA 02121"
+retailsale-302008,contact-phone,617-652-7750
+retailsale-302008,dispenses,fare-media
+retailsale-302008,enclosed,1
+retailsale-302008,payment-form-accepted,cash
+retailsale-302008,payment-form-accepted,credit-debit-card
+retailsale-302009,address,"178 Chelsea Street, Everett, MA 02149"
+retailsale-302009,contact-phone,781-475-9706
+retailsale-302009,dispenses,fare-media
+retailsale-302009,enclosed,1
+retailsale-302009,payment-form-accepted,cash
+retailsale-302009,payment-form-accepted,credit-debit-card
+retailsale-302010,address,"132 Pearl Street, Chelsea, MA 02150"
+retailsale-302010,contact-phone,617-884-0215
+retailsale-302010,dispenses,fare-media
+retailsale-302010,enclosed,1
+retailsale-302010,payment-form-accepted,cash
+retailsale-302010,payment-form-accepted,credit-debit-card
+retailsale-302011,address,"21 Mass Ave, Boston, MA 02115"
+retailsale-302011,contact-phone,617-859-1804
+retailsale-302011,dispenses,fare-media
+retailsale-302011,enclosed,1
+retailsale-302011,payment-form-accepted,cash
+retailsale-302011,payment-form-accepted,credit-debit-card
+retailsale-302012,address,"11 Traders Way, Salem, MA 01970"
+retailsale-302012,contact-phone,978-741-8660
+retailsale-302012,dispenses,fare-media
+retailsale-302012,enclosed,1
+retailsale-302012,payment-form-accepted,cash
+retailsale-302012,payment-form-accepted,credit-debit-card
+retailsale-302013,address,"699 Main Street, Waltham, MA 02451"
+retailsale-302013,contact-phone,781-472-2267
 retailsale-302013,dispenses,fare-media
 retailsale-302013,enclosed,1
 retailsale-302013,payment-form-accepted,cash
 retailsale-302013,payment-form-accepted,credit-debit-card
-retailsale-302016,address,"1065 Commonwealth Ave, Boston, MA 02215"
-retailsale-302016,contact-phone,617-783-5878
+retailsale-302014,address,"624 East Broadway, South Boston, MA 02127"
+retailsale-302014,contact-phone,857-496-0863
+retailsale-302014,dispenses,fare-media
+retailsale-302014,enclosed,1
+retailsale-302014,payment-form-accepted,cash
+retailsale-302014,payment-form-accepted,credit-debit-card
+retailsale-302015,address,"411 Broadway, Chelsea, MA 02150"
+retailsale-302015,contact-phone,617-884-6494
+retailsale-302015,dispenses,fare-media
+retailsale-302015,enclosed,1
+retailsale-302015,payment-form-accepted,cash
+retailsale-302015,payment-form-accepted,credit-debit-card
+retailsale-302016,address,"1227 Commonwealth Ave, Allston, MA 02134"
+retailsale-302016,contact-phone,617-782-0453
 retailsale-302016,dispenses,fare-media
 retailsale-302016,enclosed,1
 retailsale-302016,payment-form-accepted,cash
 retailsale-302016,payment-form-accepted,credit-debit-card
-retailsale-302017,address,"49 White St, Cambridge, MA 02140"
-retailsale-302017,contact-phone,617-492-5566
+retailsale-302017,address,"3116 Washington Street, Roxbury, MA 02119"
+retailsale-302017,contact-phone,617-983-1666
 retailsale-302017,dispenses,fare-media
 retailsale-302017,enclosed,1
 retailsale-302017,payment-form-accepted,cash
 retailsale-302017,payment-form-accepted,credit-debit-card
-retailsale-302019,address,"130 Granite St, Quincy, MA 02169"
-retailsale-302019,contact-phone,617-770-0841
+retailsale-302018,address,"44 Corinth Street, Roslindale, MA 02131"
+retailsale-302018,contact-phone,617-469-9457
+retailsale-302018,dispenses,fare-media
+retailsale-302018,enclosed,1
+retailsale-302018,payment-form-accepted,cash
+retailsale-302018,payment-form-accepted,credit-debit-card
+retailsale-302019,address,"169 Harvard Ave, Allston, MA 02134"
+retailsale-302019,contact-phone,617-783-7180
 retailsale-302019,dispenses,fare-media
 retailsale-302019,enclosed,1
 retailsale-302019,payment-form-accepted,cash
 retailsale-302019,payment-form-accepted,credit-debit-card
-retailsale-302020,address,"45 Morrissey Blvd, Dorchester, MA 02125"
-retailsale-302020,contact-phone,617-265-1776
+retailsale-302020,address,"7 Everett Ave, Chelsea, MA 02150"
+retailsale-302020,contact-phone,617-884-3013
 retailsale-302020,dispenses,fare-media
 retailsale-302020,enclosed,1
 retailsale-302020,payment-form-accepted,cash
 retailsale-302020,payment-form-accepted,credit-debit-card
-retailsale-302021,address,"14 McGrath Hwy, Somerville, MA 02143"
-retailsale-302021,contact-phone,617-354-7023
+retailsale-302021,address,"571 Broadway, Chelsea, MA 02150"
+retailsale-302021,contact-phone,617-409-9682
 retailsale-302021,dispenses,fare-media
 retailsale-302021,enclosed,1
 retailsale-302021,payment-form-accepted,cash
 retailsale-302021,payment-form-accepted,credit-debit-card
-retailsale-302023,address,"219 Quincy Ave, Quincy, MA 02169"
-retailsale-302023,contact-phone,617-328-8818
+retailsale-302022,address,"8 Washington Ave, Chelsea, MA 02150"
+retailsale-302022,contact-phone,774-268-9103
+retailsale-302022,dispenses,fare-media
+retailsale-302022,enclosed,1
+retailsale-302022,payment-form-accepted,cash
+retailsale-302022,payment-form-accepted,credit-debit-card
+retailsale-302023,address,"100 Cambridgeside Place, Cambridge, MA 02141"
+retailsale-302023,contact-phone,617-577-0201
 retailsale-302023,dispenses,fare-media
 retailsale-302023,enclosed,1
 retailsale-302023,payment-form-accepted,cash
 retailsale-302023,payment-form-accepted,credit-debit-card
-retailsale-302024,address,"68 Harrison Ave, Boston, MA 02111"
-retailsale-302024,contact-phone,617-338-0290
+retailsale-302024,address,"1247 N Shore Road, Revere, MA 02151"
+retailsale-302024,contact-phone,781-289-1319
 retailsale-302024,dispenses,fare-media
 retailsale-302024,enclosed,1
 retailsale-302024,payment-form-accepted,cash
 retailsale-302024,payment-form-accepted,credit-debit-card
-retailsale-302025,address,"30 Corinth St, Roslindale, MA 02131"
-retailsale-302025,contact-phone,617-327-2588
-retailsale-302025,dispenses,fare-media
-retailsale-302025,enclosed,1
-retailsale-302025,payment-form-accepted,cash
-retailsale-302025,payment-form-accepted,credit-debit-card
-retailsale-302026,address,"582 Broadway, Somerville, MA 02143"
-retailsale-302026,contact-phone,617-776-9540
+retailsale-302026,address,"454 Harvard Street, Brookline, MA 02446"
+retailsale-302026,contact-phone,617-713-0651
 retailsale-302026,dispenses,fare-media
 retailsale-302026,enclosed,1
 retailsale-302026,payment-form-accepted,cash
 retailsale-302026,payment-form-accepted,credit-debit-card
-retailsale-302028,address,"1383 Commonwealth Ave, Allston, MA 02134"
-retailsale-302028,contact-phone,617-254-8274
+retailsale-302027,address,"135 Causeway Street, Boston, MA 02114"
+retailsale-302027,dispenses,fare-media
+retailsale-302027,enclosed,1
+retailsale-302027,payment-form-accepted,cash
+retailsale-302027,payment-form-accepted,credit-debit-card
+retailsale-302028,address,"145 Dartmouth Street, Boston, MA 02116"
 retailsale-302028,dispenses,fare-media
 retailsale-302028,enclosed,1
 retailsale-302028,payment-form-accepted,cash
 retailsale-302028,payment-form-accepted,credit-debit-card
-retailsale-302030,address,"8A Beacon St, Boston, MA 02108"
-retailsale-302030,contact-phone,617-523-6867
+retailsale-302029,address,"200 Atlantic Ave, Boston, MA 02110"
+retailsale-302029,dispenses,fare-media
+retailsale-302029,enclosed,1
+retailsale-302029,payment-form-accepted,cash
+retailsale-302029,payment-form-accepted,credit-debit-card
+retailsale-302030,address,"781 Tremont Street, Boston, MA 02118"
+retailsale-302030,contact-phone,617-536 2722
 retailsale-302030,dispenses,fare-media
 retailsale-302030,enclosed,1
 retailsale-302030,payment-form-accepted,cash
 retailsale-302030,payment-form-accepted,credit-debit-card
-retailsale-302031,address,"1418 Beacon St, Brookline, MA 02446"
-retailsale-302031,contact-phone,617-593-9180
+retailsale-302031,address,"146 Dudley Street, Roxbury, MA 02119"
+retailsale-302031,contact-phone,617-445 2818
 retailsale-302031,dispenses,fare-media
 retailsale-302031,enclosed,1
 retailsale-302031,payment-form-accepted,cash
 retailsale-302031,payment-form-accepted,credit-debit-card
-retailsale-302035,address,"595 Washington St, Dorchester, MA 02124"
-retailsale-302035,contact-phone,617-282-4580
+retailsale-302032,address,"1065 Commonwealth Avenue, Boston, MA 02215"
+retailsale-302032,contact-phone,617-783-5878
+retailsale-302032,dispenses,fare-media
+retailsale-302032,enclosed,1
+retailsale-302032,payment-form-accepted,cash
+retailsale-302032,payment-form-accepted,credit-debit-card
+retailsale-302033,address,"49 White Street, Cambridge, MA 02140"
+retailsale-302033,contact-phone,617-492-5566
+retailsale-302033,dispenses,fare-media
+retailsale-302033,enclosed,1
+retailsale-302033,payment-form-accepted,cash
+retailsale-302033,payment-form-accepted,credit-debit-card
+retailsale-302034,address,"14 McGrath Highway, Somerville, MA 02143"
+retailsale-302034,contact-phone,617-354-7023
+retailsale-302034,dispenses,fare-media
+retailsale-302034,enclosed,1
+retailsale-302034,payment-form-accepted,cash
+retailsale-302034,payment-form-accepted,credit-debit-card
+retailsale-302035,address,"1558 Commonwealth Ave, Brighton, MA 02135"
+retailsale-302035,contact-phone,617-566-2281
 retailsale-302035,dispenses,fare-media
 retailsale-302035,enclosed,1
 retailsale-302035,payment-form-accepted,cash
 retailsale-302035,payment-form-accepted,credit-debit-card
-retailsale-302037,address,"282 Centre St, Jamaica Plain, MA 02130"
-retailsale-302037,contact-phone,617-983-3020
+retailsale-302036,address,"28 Shipyard Dr, Hingham, MA 02043"
+retailsale-302036,contact-phone,857-300-3689
+retailsale-302036,dispenses,fare-media
+retailsale-302036,enclosed,1
+retailsale-302036,payment-form-accepted,cash
+retailsale-302036,payment-form-accepted,credit-debit-card
+retailsale-302037,address,"30 Corinth Street, Roslindale, MA 02131"
+retailsale-302037,contact-phone,617-327-2588
 retailsale-302037,dispenses,fare-media
 retailsale-302037,enclosed,1
 retailsale-302037,payment-form-accepted,cash
 retailsale-302037,payment-form-accepted,credit-debit-card
-retailsale-302038,address,"62 Market Sq, Lynn, MA 01905"
-retailsale-302038,contact-phone,781-592-3500
+retailsale-302038,address,"582 Broadway, Somerville, MA 02143"
+retailsale-302038,contact-phone,617-776-9540
 retailsale-302038,dispenses,fare-media
 retailsale-302038,enclosed,1
 retailsale-302038,payment-form-accepted,cash
 retailsale-302038,payment-form-accepted,credit-debit-card
-retailsale-302041,address,"1998 Revere Beach Pkwy, Everett, MA 02149"
-retailsale-302041,contact-phone,617-381-8902
+retailsale-302039,address,"1383 Commonwealth Ave., Allston, MA 02134"
+retailsale-302039,contact-phone,617-254-8274
+retailsale-302039,dispenses,fare-media
+retailsale-302039,enclosed,1
+retailsale-302039,payment-form-accepted,cash
+retailsale-302039,payment-form-accepted,credit-debit-card
+retailsale-302040,address,"8A Beacon Street, Boston, MA 02108"
+retailsale-302040,contact-phone,617-523-6867
+retailsale-302040,dispenses,fare-media
+retailsale-302040,enclosed,1
+retailsale-302040,payment-form-accepted,cash
+retailsale-302040,payment-form-accepted,credit-debit-card
+retailsale-302041,address,"1418 Beacon St., Brookline, MA 02446"
+retailsale-302041,contact-phone,617-593-9180
 retailsale-302041,dispenses,fare-media
 retailsale-302041,enclosed,1
 retailsale-302041,payment-form-accepted,cash
 retailsale-302041,payment-form-accepted,credit-debit-card
-retailsale-302045,address,"722 Huntington Ave, Boston, MA 02115"
-retailsale-302045,contact-phone,617-277-4665
+retailsale-302042,address,"595 Washington St., Dorchester, MA 02124"
+retailsale-302042,contact-phone,617-282-4580
+retailsale-302042,dispenses,fare-media
+retailsale-302042,enclosed,1
+retailsale-302042,payment-form-accepted,cash
+retailsale-302042,payment-form-accepted,credit-debit-card
+retailsale-302043,address,"282 Centre Street, Jamaica Plain, MA 02130"
+retailsale-302043,contact-phone,617-983-3020
+retailsale-302043,dispenses,fare-media
+retailsale-302043,enclosed,1
+retailsale-302043,payment-form-accepted,cash
+retailsale-302043,payment-form-accepted,credit-debit-card
+retailsale-302044,address,"62 Market Square, Lynn, MA 01905"
+retailsale-302044,contact-phone,781-592-3500
+retailsale-302044,dispenses,fare-media
+retailsale-302044,enclosed,1
+retailsale-302044,payment-form-accepted,cash
+retailsale-302044,payment-form-accepted,credit-debit-card
+retailsale-302045,address,"673 East Broadway, South Boston, MA 02127"
+retailsale-302045,contact-phone,617-588-6608
 retailsale-302045,dispenses,fare-media
 retailsale-302045,enclosed,1
 retailsale-302045,payment-form-accepted,cash
 retailsale-302045,payment-form-accepted,credit-debit-card
-retailsale-302046,address,"4 College Ave, Somerville, MA 02144"
-retailsale-302046,contact-phone,617-666-0650
+retailsale-302046,address,"1998 Revere Beach Pkwy, Everett, MA 02149"
+retailsale-302046,contact-phone,617-381-8902
 retailsale-302046,dispenses,fare-media
 retailsale-302046,enclosed,1
 retailsale-302046,payment-form-accepted,cash
 retailsale-302046,payment-form-accepted,credit-debit-card
-retailsale-302047,address,"141 Massachusetts Ave, Boston, MA 02115"
-retailsale-302047,contact-phone,617-353-1897
+retailsale-302047,address,"607 Main Street, Waltham, MA 02452"
+retailsale-302047,contact-phone,781-314-0096
 retailsale-302047,dispenses,fare-media
 retailsale-302047,enclosed,1
 retailsale-302047,payment-form-accepted,cash
 retailsale-302047,payment-form-accepted,credit-debit-card
-retailsale-302048,address,"177 State St, Boston, MA 02109"
-retailsale-302048,contact-phone,617-367-0034
+retailsale-302048,address,"722 Huntington Ave., Boston, MA 02115"
+retailsale-302048,contact-phone,617-277-4665
 retailsale-302048,dispenses,fare-media
 retailsale-302048,enclosed,1
 retailsale-302048,payment-form-accepted,cash
 retailsale-302048,payment-form-accepted,credit-debit-card
-retailsale-302051,address,"150 Bennington St, East Boston, MA 02128"
-retailsale-302051,contact-phone,617-567-7832
+retailsale-302049,address,"4 College Ave., Davis Sq, Somerville, MA 02144"
+retailsale-302049,contact-phone,617-666-0650
+retailsale-302049,dispenses,fare-media
+retailsale-302049,enclosed,1
+retailsale-302049,payment-form-accepted,cash
+retailsale-302049,payment-form-accepted,credit-debit-card
+retailsale-302050,address,"141 Massachusetts Ave., Boston, MA 02115"
+retailsale-302050,contact-phone,617-353-1897
+retailsale-302050,dispenses,fare-media
+retailsale-302050,enclosed,1
+retailsale-302050,payment-form-accepted,cash
+retailsale-302050,payment-form-accepted,credit-debit-card
+retailsale-302051,address,"177 State St., Boston, MA 02109"
+retailsale-302051,contact-phone,617-367-0034
 retailsale-302051,dispenses,fare-media
 retailsale-302051,enclosed,1
 retailsale-302051,payment-form-accepted,cash
 retailsale-302051,payment-form-accepted,credit-debit-card
-retailsale-302053,address,"161 Shirley Ave, Revere, MA 02128"
-retailsale-302053,contact-phone,781-284-1030
+retailsale-302052,address,"150 Bennington St., East Boston, MA 02128"
+retailsale-302052,contact-phone,617-567-7832
+retailsale-302052,dispenses,fare-media
+retailsale-302052,enclosed,1
+retailsale-302052,payment-form-accepted,cash
+retailsale-302052,payment-form-accepted,credit-debit-card
+retailsale-302053,address,"252 Main St, Everett, MA 02149"
+retailsale-302053,contact-phone,617-944-9217
 retailsale-302053,dispenses,fare-media
 retailsale-302053,enclosed,1
 retailsale-302053,payment-form-accepted,cash
 retailsale-302053,payment-form-accepted,credit-debit-card
-retailsale-302055,address,"19 Maverick Sq, East Boston, MA 02128"
+retailsale-302054,address,"140 Tremont Street, Boston, MA 02111"
+retailsale-302054,contact-phone,617-338-6500
+retailsale-302054,dispenses,fare-media
+retailsale-302054,enclosed,1
+retailsale-302054,payment-form-accepted,cash
+retailsale-302054,payment-form-accepted,credit-debit-card
+retailsale-302055,address,"19 Maverick Square, East Boston, MA 02128"
 retailsale-302055,contact-phone,617-561-0333
 retailsale-302055,dispenses,fare-media
 retailsale-302055,enclosed,1
 retailsale-302055,payment-form-accepted,cash
 retailsale-302055,payment-form-accepted,credit-debit-card
-retailsale-302057,address,"1 Park St, Chelsea, MA 02150"
-retailsale-302057,contact-phone,617-888-0846
+retailsale-302056,address,"1 Park St., Chelsea, MA 02150"
+retailsale-302056,contact-phone,617-888-0846
+retailsale-302056,dispenses,fare-media
+retailsale-302056,enclosed,1
+retailsale-302056,payment-form-accepted,cash
+retailsale-302056,payment-form-accepted,credit-debit-card
+retailsale-302057,address,"610 Blue Hill Ave., Dorchester, MA 02121"
+retailsale-302057,contact-phone,617-522-9266
 retailsale-302057,dispenses,fare-media
 retailsale-302057,enclosed,1
 retailsale-302057,payment-form-accepted,cash
 retailsale-302057,payment-form-accepted,credit-debit-card
-retailsale-302058,address,"610 Blue Hill Ave, Dorchester, MA 02121"
-retailsale-302058,contact-phone,617-522-9266
+retailsale-302058,address,"508 Geneva Ave., Dorchester, MA 02122"
+retailsale-302058,contact-phone,617-282-2896
 retailsale-302058,dispenses,fare-media
 retailsale-302058,enclosed,1
 retailsale-302058,payment-form-accepted,cash
 retailsale-302058,payment-form-accepted,credit-debit-card
-retailsale-302059,address,"508 Geneva Ave, Dorchester, MA 02122"
-retailsale-302059,contact-phone,617-282-2896
+retailsale-302059,address,"1284 Massachusetts Ave., Dorchester, MA 02125"
+retailsale-302059,contact-phone,617-282-2872
 retailsale-302059,dispenses,fare-media
 retailsale-302059,enclosed,1
 retailsale-302059,payment-form-accepted,cash
 retailsale-302059,payment-form-accepted,credit-debit-card
-retailsale-302060,address,"1284 Massachusetts Ave, Dorchester, MA 02125"
-retailsale-302060,contact-phone,617-282-2872
+retailsale-302060,address,"1170 Blue Hill Ave., Mattapan, MA 02126"
+retailsale-302060,contact-phone,617-825-7874
 retailsale-302060,dispenses,fare-media
 retailsale-302060,enclosed,1
 retailsale-302060,payment-form-accepted,cash
 retailsale-302060,payment-form-accepted,credit-debit-card
-retailsale-302061,address,"1170 Blue Hill Ave, Mattapan, MA 02126"
-retailsale-302061,contact-phone,617-825-7874
+retailsale-302061,address,"430 Beach Street, Revere, MA 02126"
+retailsale-302061,contact-phone,781-284-0370
 retailsale-302061,dispenses,fare-media
 retailsale-302061,enclosed,1
 retailsale-302061,payment-form-accepted,cash
 retailsale-302061,payment-form-accepted,credit-debit-card
-retailsale-302069,address,"550 Lee Burbank Hwy, Revere, MA 02126"
-retailsale-302069,contact-phone,781-284-0370
+retailsale-302062,address,"699 Mt Auburn St., Cambridge, MA 02138"
+retailsale-302062,contact-phone,617-876-1450
+retailsale-302062,dispenses,fare-media
+retailsale-302062,enclosed,1
+retailsale-302062,payment-form-accepted,cash
+retailsale-302062,payment-form-accepted,credit-debit-card
+retailsale-302064,address,"71 Front Street, Scituate, MA 02066"
+retailsale-302064,contact-phone,781-545-4896
+retailsale-302064,dispenses,fare-media
+retailsale-302064,enclosed,1
+retailsale-302064,payment-form-accepted,cash
+retailsale-302064,payment-form-accepted,credit-debit-card
+retailsale-302065,address,"509 Cambridge St., Allston, MA 02134"
+retailsale-302065,contact-phone,617-782-3900
+retailsale-302065,dispenses,fare-media
+retailsale-302065,enclosed,1
+retailsale-302065,payment-form-accepted,cash
+retailsale-302065,payment-form-accepted,credit-debit-card
+retailsale-302066,address,"14 Maverick Sq., East Boston, MA 02128"
+retailsale-302066,contact-phone,617-567-6025
+retailsale-302066,dispenses,fare-media
+retailsale-302066,enclosed,1
+retailsale-302066,payment-form-accepted,cash
+retailsale-302066,payment-form-accepted,credit-debit-card
+retailsale-302067,address,"401 South Ave., Whitman, MA 02382"
+retailsale-302067,contact-phone,781-447-5741
+retailsale-302067,dispenses,fare-media
+retailsale-302067,enclosed,1
+retailsale-302067,payment-form-accepted,cash
+retailsale-302067,payment-form-accepted,credit-debit-card
+retailsale-302068,address,"33 Kilmarnock Street, Boston, MA 02215"
+retailsale-302068,contact-phone,617-267-4684
+retailsale-302068,dispenses,fare-media
+retailsale-302068,enclosed,1
+retailsale-302068,payment-form-accepted,cash
+retailsale-302068,payment-form-accepted,credit-debit-card
+retailsale-302069,address,"53 Huntington Avenue, Boston, MA 02199"
+retailsale-302069,contact-phone,617-236-4235
 retailsale-302069,dispenses,fare-media
 retailsale-302069,enclosed,1
 retailsale-302069,payment-form-accepted,cash
 retailsale-302069,payment-form-accepted,credit-debit-card
-retailsale-302071,address,"112 Medford St, Medford, MA 02155"
-retailsale-302071,contact-phone,781-393-9090
+retailsale-302070,address,"1717 Beacon Street, Brookline, MA 02445"
+retailsale-302070,contact-phone,617-556-1802
+retailsale-302070,dispenses,fare-media
+retailsale-302070,enclosed,1
+retailsale-302070,payment-form-accepted,cash
+retailsale-302070,payment-form-accepted,credit-debit-card
+retailsale-302071,address,"145 Broadway St., Norwood, MA 02062"
+retailsale-302071,contact-phone,781-762-6038
 retailsale-302071,dispenses,fare-media
 retailsale-302071,enclosed,1
 retailsale-302071,payment-form-accepted,cash
 retailsale-302071,payment-form-accepted,credit-debit-card
-retailsale-302073,address,"699 Mt Auburn St, Cambridge, MA 02138"
-retailsale-302073,contact-phone,617-876-1450
+retailsale-302072,address,"275 Prospect St., Cambridge, MA 02139"
+retailsale-302072,contact-phone,617-547-4711
+retailsale-302072,dispenses,fare-media
+retailsale-302072,enclosed,1
+retailsale-302072,payment-form-accepted,cash
+retailsale-302072,payment-form-accepted,credit-debit-card
+retailsale-302073,address,"750 Massachusetts Ave., Cambridge, MA 02139"
+retailsale-302073,contact-phone,617-492-0830
 retailsale-302073,dispenses,fare-media
 retailsale-302073,enclosed,1
 retailsale-302073,payment-form-accepted,cash
 retailsale-302073,payment-form-accepted,credit-debit-card
-retailsale-302079,address,"230 Meridian St, East Boston, MA 02128"
-retailsale-302079,contact-phone,617-561-0445
+retailsale-302074,address,"473 West Broadway, South Boston, MA 02127"
+retailsale-302074,contact-phone,617-268-8711
+retailsale-302074,dispenses,fare-media
+retailsale-302074,enclosed,1
+retailsale-302074,payment-form-accepted,cash
+retailsale-302074,payment-form-accepted,credit-debit-card
+retailsale-302075,address,"327 Main St., Wilmington, MA 01887"
+retailsale-302075,contact-phone,978-658-7884
+retailsale-302075,dispenses,fare-media
+retailsale-302075,enclosed,1
+retailsale-302075,payment-form-accepted,cash
+retailsale-302075,payment-form-accepted,credit-debit-card
+retailsale-302077,address,"2002 Beacon St, Brighton, MA 02135"
+retailsale-302077,contact-phone,617-738-9692
+retailsale-302077,dispenses,fare-media
+retailsale-302077,enclosed,1
+retailsale-302077,payment-form-accepted,cash
+retailsale-302077,payment-form-accepted,credit-debit-card
+retailsale-302078,address,"584 Washington St, Brighton, MA 02136"
+retailsale-302078,contact-phone,617-783-1708
+retailsale-302078,dispenses,fare-media
+retailsale-302078,enclosed,1
+retailsale-302078,payment-form-accepted,cash
+retailsale-302078,payment-form-accepted,credit-debit-card
+retailsale-302079,address,"51 Commercial St, Braintree, MA 02184"
+retailsale-302079,contact-phone,781-843-5294
 retailsale-302079,dispenses,fare-media
 retailsale-302079,enclosed,1
 retailsale-302079,payment-form-accepted,cash
 retailsale-302079,payment-form-accepted,credit-debit-card
-retailsale-302086,address,"71 Front St, Scituate, MA 02066"
-retailsale-302086,contact-phone,781-545-4896
-retailsale-302086,dispenses,fare-media
-retailsale-302086,enclosed,1
-retailsale-302086,payment-form-accepted,cash
-retailsale-302086,payment-form-accepted,credit-debit-card
-retailsale-302090,address,"34 Essex St, Melrose, MA 02176"
-retailsale-302090,contact-phone,781-665-8512
-retailsale-302090,dispenses,fare-media
-retailsale-302090,enclosed,1
-retailsale-302090,payment-form-accepted,cash
-retailsale-302090,payment-form-accepted,credit-debit-card
-retailsale-302091,address,"246 Border St, East Boston, MA 02128"
-retailsale-302091,contact-phone,617-567-4116
+retailsale-302080,address,"112 Medford Street, Medford, MA 02155"
+retailsale-302080,contact-phone,781-393-9090
+retailsale-302080,dispenses,fare-media
+retailsale-302080,enclosed,1
+retailsale-302080,payment-form-accepted,cash
+retailsale-302080,payment-form-accepted,credit-debit-card
+retailsale-302081,address,"829 N. Main St., Brockton, MA 02301"
+retailsale-302081,contact-phone,508-583-3724
+retailsale-302081,dispenses,fare-media
+retailsale-302081,enclosed,1
+retailsale-302081,payment-form-accepted,cash
+retailsale-302081,payment-form-accepted,credit-debit-card
+retailsale-302082,address,"10 Rockwood Road, Norfolk, MA 02056"
+retailsale-302082,contact-phone,508-528-1082
+retailsale-302082,dispenses,fare-media
+retailsale-302082,enclosed,1
+retailsale-302082,payment-form-accepted,cash
+retailsale-302082,payment-form-accepted,credit-debit-card
+retailsale-302083,address,"588 South Street, Waltham, MA 02453"
+retailsale-302083,contact-phone,781-788-0009
+retailsale-302083,dispenses,fare-media
+retailsale-302083,enclosed,1
+retailsale-302083,payment-form-accepted,cash
+retailsale-302083,payment-form-accepted,credit-debit-card
+retailsale-302084,address,"125 Pearl Street, Braintree, MA 02184"
+retailsale-302084,contact-phone,781-228-4406
+retailsale-302084,dispenses,fare-media
+retailsale-302084,enclosed,1
+retailsale-302084,payment-form-accepted,cash
+retailsale-302084,payment-form-accepted,credit-debit-card
+retailsale-302085,address,"43 Granite Street, Haverhill, MA 01832"
+retailsale-302085,contact-phone,978-372-9571
+retailsale-302085,dispenses,fare-media
+retailsale-302085,enclosed,1
+retailsale-302085,payment-form-accepted,cash
+retailsale-302085,payment-form-accepted,credit-debit-card
+retailsale-302087,address,"20 Norwood St, Everett, MA 02149"
+retailsale-302087,contact-phone,617-387-0393
+retailsale-302087,dispenses,fare-media
+retailsale-302087,enclosed,1
+retailsale-302087,payment-form-accepted,cash
+retailsale-302087,payment-form-accepted,credit-debit-card
+retailsale-302088,address,"1585 Commonwealth Ave, Brighton, MA 02135"
+retailsale-302088,contact-phone,617-783-3455
+retailsale-302088,dispenses,fare-media
+retailsale-302088,enclosed,1
+retailsale-302088,payment-form-accepted,cash
+retailsale-302088,payment-form-accepted,credit-debit-card
+retailsale-302089,address,"100 Atlantic Ave, Woburn, MA 01801"
+retailsale-302089,contact-phone,781-721-0373
+retailsale-302089,dispenses,fare-media
+retailsale-302089,enclosed,1
+retailsale-302089,payment-form-accepted,cash
+retailsale-302089,payment-form-accepted,credit-debit-card
+retailsale-302091,address,"100 Gaspee St, Providence, RI 02903"
+retailsale-302091,contact-phone,401-273-3010
 retailsale-302091,dispenses,fare-media
 retailsale-302091,enclosed,1
 retailsale-302091,payment-form-accepted,cash
 retailsale-302091,payment-form-accepted,credit-debit-card
-retailsale-302116,address,"509 Cambridge St, Allston, MA 02134"
-retailsale-302116,contact-phone,617-782-3900
-retailsale-302116,dispenses,fare-media
-retailsale-302116,enclosed,1
-retailsale-302116,payment-form-accepted,cash
-retailsale-302116,payment-form-accepted,credit-debit-card
-retailsale-302119,address,"14 Maverick Sq, East Boston, MA 02128"
-retailsale-302119,contact-phone,617-567-6025
-retailsale-302119,dispenses,fare-media
-retailsale-302119,enclosed,1
-retailsale-302119,payment-form-accepted,cash
-retailsale-302119,payment-form-accepted,credit-debit-card
-retailsale-302121,address,"401 South Ave, Whitman, MA 02382"
-retailsale-302121,contact-phone,781-447-5741
-retailsale-302121,dispenses,fare-media
-retailsale-302121,enclosed,1
-retailsale-302121,payment-form-accepted,cash
-retailsale-302121,payment-form-accepted,credit-debit-card
-retailsale-302123,address,"2040 Commonwealth Ave, Newton  , MA 02466"
-retailsale-302123,contact-phone,617-965-1793
-retailsale-302123,dispenses,fare-media
-retailsale-302123,enclosed,1
-retailsale-302123,payment-form-accepted,cash
-retailsale-302123,payment-form-accepted,credit-debit-card
-retailsale-302124,address,"1377 Hyde Park Ave, Hyde Park, MA 02136"
-retailsale-302124,contact-phone,617-364-9375
-retailsale-302124,dispenses,fare-media
-retailsale-302124,enclosed,1
-retailsale-302124,payment-form-accepted,cash
-retailsale-302124,payment-form-accepted,credit-debit-card
-retailsale-302125,address,"33 Kilmarnock St, Boston, MA 02215"
-retailsale-302125,contact-phone,617-267-4684
-retailsale-302125,dispenses,fare-media
-retailsale-302125,enclosed,1
-retailsale-302125,payment-form-accepted,cash
-retailsale-302125,payment-form-accepted,credit-debit-card
-retailsale-302126,address,"53 Huntington Ave, Boston, MA 02199"
-retailsale-302126,contact-phone,617-236-4235
-retailsale-302126,dispenses,fare-media
-retailsale-302126,enclosed,1
-retailsale-302126,payment-form-accepted,cash
-retailsale-302126,payment-form-accepted,credit-debit-card
-retailsale-302127,address,"1717 Beacon St, Brookline, MA 02445"
-retailsale-302127,contact-phone,617-556-1802
-retailsale-302127,dispenses,fare-media
-retailsale-302127,enclosed,1
-retailsale-302127,payment-form-accepted,cash
-retailsale-302127,payment-form-accepted,credit-debit-card
-retailsale-302128,address,"1 Boylston St, Chestnut Hill, MA 02467"
-retailsale-302128,contact-phone,617-232-3854
-retailsale-302128,dispenses,fare-media
-retailsale-302128,enclosed,1
-retailsale-302128,payment-form-accepted,cash
-retailsale-302128,payment-form-accepted,credit-debit-card
-retailsale-302131,address,"145 Broadway St, Norwood, MA 02062"
-retailsale-302131,contact-phone,781-762-6038
-retailsale-302131,dispenses,fare-media
-retailsale-302131,enclosed,1
-retailsale-302131,payment-form-accepted,cash
-retailsale-302131,payment-form-accepted,credit-debit-card
-retailsale-302138,address,"275 Prospect St, Cambridge, MA 02139"
-retailsale-302138,contact-phone,617-547-4711
-retailsale-302138,dispenses,fare-media
-retailsale-302138,enclosed,1
-retailsale-302138,payment-form-accepted,cash
-retailsale-302138,payment-form-accepted,credit-debit-card
-retailsale-302140,address,"750 Massachusetts Ave, Cambridge, MA 02139"
-retailsale-302140,contact-phone,617-492-0830
-retailsale-302140,dispenses,fare-media
-retailsale-302140,enclosed,1
-retailsale-302140,payment-form-accepted,cash
-retailsale-302140,payment-form-accepted,credit-debit-card
-retailsale-302144,address,"473 West Broadway, South Boston, MA 02127"
-retailsale-302144,contact-phone,617-268-8711
-retailsale-302144,dispenses,fare-media
-retailsale-302144,enclosed,1
-retailsale-302144,payment-form-accepted,cash
-retailsale-302144,payment-form-accepted,credit-debit-card
-retailsale-302148,address,"327 Main St, Wilmington, MA 01887"
-retailsale-302148,contact-phone,978-658-7884
-retailsale-302148,dispenses,fare-media
-retailsale-302148,enclosed,1
-retailsale-302148,payment-form-accepted,cash
-retailsale-302148,payment-form-accepted,credit-debit-card
-retailsale-302149,address,"20 Irving St, Framingham, MA 01702"
-retailsale-302149,contact-phone,508-861-3295
-retailsale-302149,dispenses,fare-media
-retailsale-302149,enclosed,1
-retailsale-302149,payment-form-accepted,cash
-retailsale-302149,payment-form-accepted,credit-debit-card
-retailsale-302150,address,"2002 Beacon St, Brighton, MA 02135"
-retailsale-302150,contact-phone,617-738-9692
-retailsale-302150,dispenses,fare-media
-retailsale-302150,enclosed,1
-retailsale-302150,payment-form-accepted,cash
-retailsale-302150,payment-form-accepted,credit-debit-card
-retailsale-302152,address,"584 Washington St, Brighton, MA 02136"
-retailsale-302152,contact-phone,617-783-1708
-retailsale-302152,dispenses,fare-media
-retailsale-302152,enclosed,1
-retailsale-302152,payment-form-accepted,cash
-retailsale-302152,payment-form-accepted,credit-debit-card
-retailsale-302153,address,"51 Commercial St, Braintree, MA 02184"
-retailsale-302153,contact-phone,781-843-5294
-retailsale-302153,dispenses,fare-media
-retailsale-302153,enclosed,1
-retailsale-302153,payment-form-accepted,cash
-retailsale-302153,payment-form-accepted,credit-debit-card
-retailsale-302157,address,"829 N Main St, Brockton, MA 02301"
-retailsale-302157,contact-phone,508-583-3724
-retailsale-302157,dispenses,fare-media
-retailsale-302157,enclosed,1
-retailsale-302157,payment-form-accepted,cash
-retailsale-302157,payment-form-accepted,credit-debit-card
-retailsale-302163,address,"10 Rockwood Road          , Norfolk, MA 02056"
-retailsale-302163,contact-phone,508-528-1082
-retailsale-302163,dispenses,fare-media
-retailsale-302163,enclosed,1
-retailsale-302163,payment-form-accepted,cash
-retailsale-302163,payment-form-accepted,credit-debit-card
-retailsale-302164,address,"588 South St      , Waltham, MA 02453"
-retailsale-302164,contact-phone,781-788-0009
-retailsale-302164,dispenses,fare-media
-retailsale-302164,enclosed,1
-retailsale-302164,payment-form-accepted,cash
-retailsale-302164,payment-form-accepted,credit-debit-card
-retailsale-302171,address,"43 Granite St, Haverhill, MA 01832"
-retailsale-302171,contact-phone,978-372-9571
-retailsale-302171,dispenses,fare-media
-retailsale-302171,enclosed,1
-retailsale-302171,payment-form-accepted,cash
-retailsale-302171,payment-form-accepted,credit-debit-card
-retailsale-302184,address,"224 Centre Ave, Abington, MA 02351"
-retailsale-302184,contact-phone,781-878-7662
-retailsale-302184,dispenses,fare-media
-retailsale-302184,enclosed,1
-retailsale-302184,payment-form-accepted,cash
-retailsale-302184,payment-form-accepted,credit-debit-card
-retailsale-302187,address,"134 Water St, Wakefield, MA 01880"
-retailsale-302187,contact-phone,781-245-0032
-retailsale-302187,dispenses,fare-media
-retailsale-302187,enclosed,1
-retailsale-302187,payment-form-accepted,cash
-retailsale-302187,payment-form-accepted,credit-debit-card
-retailsale-302188,address,"1585 Commonwealth Ave, Brighton, MA 02135"
-retailsale-302188,contact-phone,617-783-3455
-retailsale-302188,dispenses,fare-media
-retailsale-302188,enclosed,1
-retailsale-302188,payment-form-accepted,cash
-retailsale-302188,payment-form-accepted,credit-debit-card
-retailsale-302194,address,"100 Atlantic Ave, Woburn, MA 01801"
-retailsale-302194,contact-phone,781-721-0373
-retailsale-302194,dispenses,fare-media
-retailsale-302194,enclosed,1
-retailsale-302194,payment-form-accepted,cash
-retailsale-302194,payment-form-accepted,credit-debit-card
-retailsale-302195,address,"135 Washington St, Haverhill, MA 01832"
-retailsale-302195,contact-phone,978-373-2222
-retailsale-302195,dispenses,fare-media
-retailsale-302195,enclosed,1
-retailsale-302195,payment-form-accepted,cash
-retailsale-302195,payment-form-accepted,credit-debit-card
-retailsale-302199,address,"100 Gaspee St, Providence, RI 02903"
-retailsale-302199,contact-phone,401 273-3010
-retailsale-302199,dispenses,fare-media
-retailsale-302199,enclosed,1
-retailsale-302199,payment-form-accepted,cash
-retailsale-302199,payment-form-accepted,credit-debit-card
-retailsale-302200,address,"100 Main St, Fitchburg, MA 01420"
-retailsale-302200,contact-phone,978-343-3064
-retailsale-302200,dispenses,fare-media
-retailsale-302200,enclosed,1
-retailsale-302200,payment-form-accepted,cash
-retailsale-302200,payment-form-accepted,credit-debit-card
-retailsale-302210,address,"1266 Hyde Park Ave, Hyde Park, MA 02136"
-retailsale-302210,contact-phone,617-361-1175
-retailsale-302210,dispenses,fare-media
-retailsale-302210,enclosed,1
-retailsale-302210,payment-form-accepted,cash
-retailsale-302210,payment-form-accepted,credit-debit-card
-retailsale-302211,address,"4 Central Sq, Cambridge, MA 02139"
-retailsale-302211,contact-phone,617-498-0600
-retailsale-302211,dispenses,fare-media
-retailsale-302211,enclosed,1
-retailsale-302211,payment-form-accepted,cash
-retailsale-302211,payment-form-accepted,credit-debit-card
-retailsale-302217,address,"1 West Union St, Ashland, MA 01721"
-retailsale-302217,contact-phone,508-881-8211
-retailsale-302217,dispenses,fare-media
-retailsale-302217,enclosed,1
-retailsale-302217,payment-form-accepted,cash
-retailsale-302217,payment-form-accepted,credit-debit-card
-retailsale-302234,address,"211 Merrimack St, Lawrence, MA 01843"
-retailsale-302234,contact-phone,978-688-6868
-retailsale-302234,dispenses,fare-media
-retailsale-302234,enclosed,1
-retailsale-302234,payment-form-accepted,cash
-retailsale-302234,payment-form-accepted,credit-debit-card
-retailsale-303004,address,"370 Western Ave, Brighton, MA 02135"
-retailsale-303004,contact-phone,617-787-5266
-retailsale-303004,dispenses,fare-media
-retailsale-303004,enclosed,1
-retailsale-303004,payment-form-accepted,cash
-retailsale-303004,payment-form-accepted,credit-debit-card
-retailsale-303006,address,"20 Brook St, Quincy, MA 02170"
-retailsale-303006,contact-phone,617-770-4740
-retailsale-303006,dispenses,fare-media
-retailsale-303006,enclosed,1
-retailsale-303006,payment-form-accepted,cash
-retailsale-303006,payment-form-accepted,credit-debit-card
-retailsale-303008,address,"451 Columbia Rd, Dorchester, MA 02125"
-retailsale-303008,contact-phone,617-436-7262
-retailsale-303008,dispenses,fare-media
-retailsale-303008,enclosed,1
-retailsale-303008,payment-form-accepted,cash
-retailsale-303008,payment-form-accepted,credit-debit-card
-retailsale-303012,address,"131 Lexington St, Waltham, MA 02451"
-retailsale-303012,contact-phone,781-893-1333
-retailsale-303012,dispenses,fare-media
-retailsale-303012,enclosed,1
-retailsale-303012,payment-form-accepted,cash
-retailsale-303012,payment-form-accepted,credit-debit-card
-retailsale-303016,address,"535 Trapelo Rd, Belmont, MA 02478"
-retailsale-303016,contact-phone,617-489-6540
-retailsale-303016,dispenses,fare-media
-retailsale-303016,enclosed,1
-retailsale-303016,payment-form-accepted,cash
-retailsale-303016,payment-form-accepted,credit-debit-card
-retailsale-303017,address,"1305 Broadway, Somerville, MA 02144"
-retailsale-303017,contact-phone,508-737-7702
-retailsale-303017,dispenses,fare-media
-retailsale-303017,enclosed,1
-retailsale-303017,payment-form-accepted,cash
-retailsale-303017,payment-form-accepted,credit-debit-card
-retailsale-303019,address,"324 Revere Beach Pkwy, Chelsea, MA 02150"
-retailsale-303019,contact-phone,617-889-9853
-retailsale-303019,dispenses,fare-media
-retailsale-303019,enclosed,1
-retailsale-303019,payment-form-accepted,cash
-retailsale-303019,payment-form-accepted,credit-debit-card
-retailsale-303021,address,"82 River St, Mattapan, MA 02126"
-retailsale-303021,contact-phone,617-296-7032
-retailsale-303021,dispenses,fare-media
-retailsale-303021,enclosed,1
-retailsale-303021,payment-form-accepted,cash
-retailsale-303021,payment-form-accepted,credit-debit-card
-retailsale-303023,address,"359 Moody St, Waltham, MA 02453"
-retailsale-303023,contact-phone,781-373-2698
-retailsale-303023,dispenses,fare-media
-retailsale-303023,enclosed,1
-retailsale-303023,payment-form-accepted,cash
-retailsale-303023,payment-form-accepted,credit-debit-card
-retailsale-303025,address,"178 Chelsea St, Everett, MA 02149"
-retailsale-303025,contact-phone,781-475-9706
-retailsale-303025,dispenses,fare-media
-retailsale-303025,enclosed,1
-retailsale-303025,payment-form-accepted,cash
-retailsale-303025,payment-form-accepted,credit-debit-card
-retailsale-303026,address,"132 Pearl St, Chelsea, MA 02150"
-retailsale-303026,contact-phone,617-884-0215
-retailsale-303026,dispenses,fare-media
-retailsale-303026,enclosed,1
-retailsale-303026,payment-form-accepted,cash
-retailsale-303026,payment-form-accepted,credit-debit-card
-retailsale-303028,address,"11 Traders Way, Salem, MA 01970"
-retailsale-303028,contact-phone,978-741-8660
-retailsale-303028,dispenses,fare-media
-retailsale-303028,enclosed,1
-retailsale-303028,payment-form-accepted,cash
-retailsale-303028,payment-form-accepted,credit-debit-card
-retailsale-303031,address,"699 Main St, Waltham, MA 02451"
-retailsale-303031,contact-phone,781-472-2267
-retailsale-303031,dispenses,fare-media
-retailsale-303031,enclosed,1
-retailsale-303031,payment-form-accepted,cash
-retailsale-303031,payment-form-accepted,credit-debit-card
-retailsale-303032,address,"624 East Broadway, South Boston, MA 02127"
-retailsale-303032,contact-phone,857-496-0863
-retailsale-303032,dispenses,fare-media
-retailsale-303032,enclosed,1
-retailsale-303032,payment-form-accepted,cash
-retailsale-303032,payment-form-accepted,credit-debit-card
-retailsale-303037,address,"1227 Commonwealth Ave, Allston, MA 02134"
-retailsale-303037,contact-phone,617-782-0453
-retailsale-303037,dispenses,fare-media
-retailsale-303037,enclosed,1
-retailsale-303037,payment-form-accepted,cash
-retailsale-303037,payment-form-accepted,credit-debit-card
-retailsale-303038,address,"3116 Washington St, Roxbury, MA 02119"
-retailsale-303038,contact-phone,617-983-1666
-retailsale-303038,dispenses,fare-media
-retailsale-303038,enclosed,1
-retailsale-303038,payment-form-accepted,cash
-retailsale-303038,payment-form-accepted,credit-debit-card
-retailsale-303039,address,"44 Corinth St, Roslindale, MA 02131"
-retailsale-303039,contact-phone,617-469-9457
-retailsale-303039,dispenses,fare-media
-retailsale-303039,enclosed,1
-retailsale-303039,payment-form-accepted,cash
-retailsale-303039,payment-form-accepted,credit-debit-card
-retailsale-303040,address,"169 Harvard Ave, Allston, MA 02134"
-retailsale-303040,contact-phone,617-783-7180
-retailsale-303040,dispenses,fare-media
-retailsale-303040,enclosed,1
-retailsale-303040,payment-form-accepted,cash
-retailsale-303040,payment-form-accepted,credit-debit-card
-retailsale-303041,address,"115 Broadway St, Chelsea, MA 02150"
-retailsale-303041,contact-phone,617-884-3750
-retailsale-303041,dispenses,fare-media
-retailsale-303041,enclosed,1
-retailsale-303041,payment-form-accepted,cash
-retailsale-303041,payment-form-accepted,credit-debit-card
-retailsale-303043,address,"571 Broadway, Chelsea, MA 02150"
-retailsale-303043,contact-phone,617-409-9682
-retailsale-303043,dispenses,fare-media
-retailsale-303043,enclosed,1
-retailsale-303043,payment-form-accepted,cash
-retailsale-303043,payment-form-accepted,credit-debit-card
-retailsale-303044,address,"275 Beacon St, Somerville, MA 02143"
-retailsale-303044,contact-phone,617-354-7023
-retailsale-303044,dispenses,fare-media
-retailsale-303044,enclosed,1
-retailsale-303044,payment-form-accepted,cash
-retailsale-303044,payment-form-accepted,credit-debit-card
-retailsale-303047,address,"100 Cambridgeside Place, Cambridge, MA 02141"
-retailsale-303047,contact-phone,617-577-0201
-retailsale-303047,dispenses,fare-media
-retailsale-303047,enclosed,1
-retailsale-303047,payment-form-accepted,cash
-retailsale-303047,payment-form-accepted,credit-debit-card
-subplat-25,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+retailsale-302092,address,"100 Main Street, Fitchburg, MA 01420"
+retailsale-302092,contact-phone,978-343-3064
+retailsale-302092,dispenses,fare-media
+retailsale-302092,enclosed,1
+retailsale-302092,payment-form-accepted,cash
+retailsale-302092,payment-form-accepted,credit-debit-card
+retailsale-302093,address,"1266 Hyde Park Ave, Hyde Park, MA 02136"
+retailsale-302093,contact-phone,857-227-0200
+retailsale-302093,dispenses,fare-media
+retailsale-302093,enclosed,1
+retailsale-302093,payment-form-accepted,cash
+retailsale-302093,payment-form-accepted,credit-debit-card
+retailsale-302094,address,"4 Central Square, Cambridge, MA 02139"
+retailsale-302094,contact-phone,617-498-0600
+retailsale-302094,dispenses,fare-media
+retailsale-302094,enclosed,1
+retailsale-302094,payment-form-accepted,cash
+retailsale-302094,payment-form-accepted,credit-debit-card
+retailsale-302095,address,"1 West Union St., Ashland, MA 01721"
+retailsale-302095,contact-phone,508-881-8211
+retailsale-302095,dispenses,fare-media
+retailsale-302095,enclosed,1
+retailsale-302095,payment-form-accepted,cash
+retailsale-302095,payment-form-accepted,credit-debit-card
+retailsale-302096,address,"211 Merrimack St., Lawrence, MA 01843"
+retailsale-302096,contact-phone,978-688-6868
+retailsale-302096,dispenses,fare-media
+retailsale-302096,enclosed,1
+retailsale-302096,payment-form-accepted,cash
+retailsale-302096,payment-form-accepted,credit-debit-card
+retailsale-302097,address,"296 Washington St, Boston, MA 02108"
+retailsale-302097,dispenses,fare-media
+retailsale-302097,enclosed,1
+retailsale-302097,payment-form-accepted,cash
+retailsale-302097,payment-form-accepted,credit-debit-card
+retailsale-302098,address,"520 Cambridge St, Cambridge, MA 02141"
+retailsale-302098,contact-phone,617-492-0440
+retailsale-302098,dispenses,fare-media
+retailsale-302098,enclosed,1
+retailsale-302098,payment-form-accepted,cash
+retailsale-302098,payment-form-accepted,credit-debit-card
+retailsale-302099,address,"1622 Blue Hill Ave, Mattapan, MA 02126"
+retailsale-302099,contact-phone,347-866-0854
+retailsale-302099,dispenses,fare-media
+retailsale-302099,enclosed,1
+retailsale-302099,payment-form-accepted,cash
+retailsale-302099,payment-form-accepted,credit-debit-card
+retailsale-302100,address,"926 Morton St, Boston, MA 02126"
+retailsale-302100,contact-phone,617-514-3120
+retailsale-302100,dispenses,fare-media
+retailsale-302100,enclosed,1
+retailsale-302100,payment-form-accepted,cash
+retailsale-302100,payment-form-accepted,credit-debit-card
+retailsale-302101,address,"60 Rowes Wharf, Boston, MA 02110"
+retailsale-302101,contact-phone,857-300-3689
+retailsale-302101,dispenses,fare-media
+retailsale-302101,enclosed,1
+retailsale-302101,payment-form-accepted,cash
+retailsale-302101,payment-form-accepted,credit-debit-card
+retailsale-302102,address,"19 Stuart St, Boston, MA 02116"
+retailsale-302102,contact-phone,617-536-5301
+retailsale-302102,dispenses,fare-media
+retailsale-302102,enclosed,1
+retailsale-302102,payment-form-accepted,cash
+retailsale-302102,payment-form-accepted,credit-debit-card
+retailsale-302103,address,"18A Everett Ave, Chelsea, MA 02150"
+retailsale-302103,contact-phone,617-889-7209
+retailsale-302103,dispenses,fare-media
+retailsale-302103,enclosed,1
+retailsale-302103,payment-form-accepted,cash
+retailsale-302103,payment-form-accepted,credit-debit-card
+retailsale-302104,address,"402 Mystic Ave, Somerville, MA 02145"
+retailsale-302104,contact-phone,617-764-2250
+retailsale-302104,dispenses,fare-media
+retailsale-302104,enclosed,1
+retailsale-302104,payment-form-accepted,cash
+retailsale-302104,payment-form-accepted,credit-debit-card
+retailsale-302105,address,"873 Cambridge Street, Cambridge, MA 02141"
+retailsale-302105,contact-phone,617-714-5594
+retailsale-302105,dispenses,fare-media
+retailsale-302105,enclosed,1
+retailsale-302105,payment-form-accepted,cash
+retailsale-302105,payment-form-accepted,credit-debit-card
+retailsale-302106,address,"227 Broadway, Chelsea, MA 02150"
+retailsale-302106,contact-phone,617-887-9988
+retailsale-302106,dispenses,fare-media
+retailsale-302106,enclosed,1
+retailsale-302106,payment-form-accepted,cash
+retailsale-302106,payment-form-accepted,credit-debit-card
+retailsale-302107,address,"1283 River Street, Hyde Park, MA 02136"
+retailsale-302107,contact-phone,617-419-5220
+retailsale-302107,dispenses,fare-media
+retailsale-302107,enclosed,1
+retailsale-302107,payment-form-accepted,cash
+retailsale-302107,payment-form-accepted,credit-debit-card
+retailsale-302108,address,"1282 Blue Hill Ave STE E, Mattapan, MA 02126"
+retailsale-302108,contact-phone,617-298-2802
+retailsale-302108,dispenses,fare-media
+retailsale-302108,enclosed,1
+retailsale-302108,payment-form-accepted,cash
+retailsale-302108,payment-form-accepted,credit-debit-card
+retailsale-302109,address,"691 Broadway, Revere, MA 02151"
+retailsale-302109,contact-phone,781-284-0761
+retailsale-302109,dispenses,fare-media
+retailsale-302109,enclosed,1
+retailsale-302109,payment-form-accepted,cash
+retailsale-302109,payment-form-accepted,credit-debit-card
+retailsale-302110,address,"383C Washington Ave,, Chelsea, MA 02150"
+retailsale-302110,contact-phone,978-319-7019
+retailsale-302110,dispenses,fare-media
+retailsale-302110,enclosed,1
+retailsale-302110,payment-form-accepted,cash
+retailsale-302110,payment-form-accepted,credit-debit-card
+retailsale-302111,address,"1074 Main St, Waltham, MA 02451"
+retailsale-302111,contact-phone,978-319-7019
+retailsale-302111,dispenses,fare-media
+retailsale-302111,enclosed,1
+retailsale-302111,payment-form-accepted,cash
+retailsale-302111,payment-form-accepted,credit-debit-card
+retailsale-302112,address,"201 N Common St, Lynn, MA 01905"
+retailsale-302112,contact-phone,781-581-6014
+retailsale-302112,dispenses,fare-media
+retailsale-302112,enclosed,1
+retailsale-302112,payment-form-accepted,cash
+retailsale-302112,payment-form-accepted,credit-debit-card
+retailsale-302113,address,"707 Shirley Street, Winthrop, MA 02152"
+retailsale-302113,contact-phone,617-207-9092
+retailsale-302113,dispenses,fare-media
+retailsale-302113,enclosed,1
+retailsale-302113,payment-form-accepted,cash
+retailsale-302113,payment-form-accepted,credit-debit-card
 subplat-DB-0095-2,excludes-stop,FB-0095-04
 subplat-DB-0095-2,excludes-stop,FB-0095-05
 subplat-DB-0095-2,excludes-stop,NEC-2192-03
@@ -24366,6 +24745,7 @@ subplat-ER-0208-1,note,Mini high level platform is available to provide level bo
 subplat-ER-0208-2,excludes-stop,ER-0208-01
 subplat-ER-0208-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-ER-0227-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-ER-0276-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FB-0118-1,excludes-stop,FB-0118-02
 subplat-FB-0118-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FB-0118-2,excludes-stop,FB-0118-01
@@ -24378,7 +24758,9 @@ subplat-FB-0148-1,excludes-stop,FB-0148-02
 subplat-FB-0148-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FB-0148-2,excludes-stop,FB-0148-01
 subplat-FB-0148-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-FB-0191-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FB-0230-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-FB-0275-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FB-0303-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-FR-0098-1,excludes-stop,86944
 subplat-FR-0098-1,excludes-stop,88333
@@ -24465,6 +24847,10 @@ subplat-NEC-2203-2,excludes-stop,NEC-2203-03
 subplat-NEC-2203-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-NEC-2203-3,excludes-stop,NEC-2203-02
 subplat-NEC-2203-3,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-NHRML-0055-1,excludes-stop,NHRML-0055-02
+subplat-NHRML-0055-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-NHRML-0055-2,excludes-stop,NHRML-0055-01
+subplat-NHRML-0055-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-NHRML-0073-1,excludes-stop,NHRML-0073-02
 subplat-NHRML-0073-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-NHRML-0073-2,excludes-stop,NHRML-0073-01
@@ -24483,6 +24869,10 @@ subplat-NHRML-0218-2,excludes-stop,NHRML-0218-01
 subplat-NHRML-0218-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-SB-0156-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-SB-0189-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-WML-0147-1,excludes-stop,WML-0147-02
+subplat-WML-0147-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
+subplat-WML-0147-2,excludes-stop,WML-0147-01
+subplat-WML-0147-2,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-WML-0199-1,excludes-stop,WML-0199-02
 subplat-WML-0199-1,note,Mini high level platform is available to provide level boarding to certain cars in a train set
 subplat-WML-0199-2,excludes-stop,WML-0199-01
