@@ -19,12 +19,17 @@
     </style>
 </head>
 <body>
-    <h1>🚌 MBTA Arrivals Dashboard</h1>
+    <h1>🚌 MBTA Frequent Bus Route Headways Dashboard</h1>
     <p>Last updated: {{ updated }}</p>
 
     <div class="chart">
         <h2>Headways Over Time</h2>
         {{ headways_scatter_plot | safe }}
+    </div>
+
+    <div class="chart">
+        <h2>Headways Over Time at First and Last Stops</h2>
+        {{ headways_scatter_plot_first_last | safe }}
     </div>
 
     <div class="chart">

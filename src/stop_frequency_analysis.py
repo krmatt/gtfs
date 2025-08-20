@@ -75,5 +75,6 @@ def plot_headway_over_time(stop_id: str, route_id: str) -> None:
 
 
 if __name__ == "__main__":
-    plot_headway_over_time("2305", "77")
+    # plot_headway_over_time("2305", "77")
     # plot_headway_over_time("2567", "109")
+    pass
