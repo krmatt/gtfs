@@ -11,7 +11,7 @@ import mbta_gtfs
 DB_PATH = "stop_events.db"
 DB_TABLE_NAME = "stop_events"
 TEMPLATE_DIR = "../templates"
-OUTPUT_DIR = "../output"
+OUTPUT_DIR = ".."
 DASHBOARD_HTML_FILENAME = "dashboard.html"
 INDEX_HTML_FILENAME = "index.html"
 
