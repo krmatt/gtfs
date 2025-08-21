@@ -38,6 +38,11 @@ def get_gtfs_static_data(data_type: str):
 
 
 def get_first_and_last_stop_ids(route_ids: list[str]) -> dict:
+    # NOTE: We actually want to get the first and second-to-last stop_id.
+    # I'm calculating headways by measuring the times between departures at a stop,
+    # and departures are indicated by a vehicle's current stop_id changing.
+    # The vehicle's stop_id won't change for a long time after departing the last stop,
+    # so the second-to-last stop_id is the next best thing.
     headers = {
         "accept": "application/vnd.api+json",
         "x-api-key": get_credentials(key_only=True)
@@ -69,12 +74,23 @@ def get_first_and_last_stop_ids(route_ids: list[str]) -> dict:
                 if stop_sequence == 1:
                     route_first_last_stop_ids[route_id][direction_id]["first"] = stop_id
                 elif stop_sequence > 1:
-                    route_first_last_stop_ids[route_id][direction_id]["last"] = stop_id
+                    # Get the stop_id for the second-to-last stop instead
+                    response_second_to_last_stop = requests.get(
+                        url=f"{URL_MBTA_API_V3}/schedules",
+                        headers=headers,
+                        params={
+                            "filter[route]": route_id,
+                            "filter[stop_sequence]": stop_sequence - 1,
+                            "filter[direction_id]": direction_id,
+                            "page[limit]": 1
+                        }
+                    )
+                    response_second_to_last_stop.raise_for_status()
+                    route_first_last_stop_ids[route_id][direction_id]["last"] = response_second_to_last_stop.json()["data"][0]["relationships"]["stop"]["data"]["id"]
                 else:
                     raise ValueError(f"Stop sequence out of expected range:\nstop_sequence: {stop_sequence}\nstop_id: {stop_id}\nroute_id: {route_id}")
 
     return route_first_last_stop_ids
-
 
 
 if __name__ == "__main__":

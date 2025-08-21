@@ -53,8 +53,15 @@ def load_data() -> pd.DataFrame:
 
 
 def make_scatter_plot_headways_over_time(df: pd.DataFrame) -> str:
+    # Prepare data
+    df_plot = df[
+        (df["stop_id"] == STOP_ID) &
+        (df["route_id"] == ROUTE_ID)
+    ]
+
+    # Create plot
     fig = px.scatter(
-        data_frame=df,
+        data_frame=df_plot,
         x="stop_timestamp",
         y="headway_minutes",
         labels={"x": "Stop Timestamp", "y": "Headway (minutes)"},
@@ -65,10 +72,11 @@ def make_scatter_plot_headways_over_time(df: pd.DataFrame) -> str:
         line_color="red"
     )
 
-    return fig.to_html(full_html=False, include_plotlyjs=False)
+    return fig.to_html(full_html=False, include_plotlyjs="cdn")
 
 
 def make_scatter_plot_headways_at_first_and_last_stops(df: pd.DataFrame, route_id: str, first_last_stop_ids: dict) -> str:
+    # Prepare data
     stop_ids = [
         first_last_stop_ids[route_id][0]["first"],
         first_last_stop_ids[route_id][0]["last"],
@@ -76,7 +84,6 @@ def make_scatter_plot_headways_at_first_and_last_stops(df: pd.DataFrame, route_i
         first_last_stop_ids[route_id][1]["last"]
     ]
 
-    # Prepare data
     df_plot = df[
         (df["route_id"] == route_id) &
         (df["stop_id"].isin(stop_ids))
@@ -102,8 +109,15 @@ def make_scatter_plot_headways_at_first_and_last_stops(df: pd.DataFrame, route_i
 
 
 def make_histogram_headways_occurrences(df: pd.DataFrame) -> str:
+    # Prepare data
+    df_plot = df[
+        (df["stop_id"] == STOP_ID) &
+        (df["route_id"] == ROUTE_ID)
+    ]
+
+    # Create plot
     fig = px.histogram(
-        data_frame=df,
+        data_frame=df_plot,
         x="headway_minutes",
         nbins=60,
         labels={"x": "Headway (minutes)", "y": "Occurrences"},
@@ -114,7 +128,7 @@ def make_histogram_headways_occurrences(df: pd.DataFrame) -> str:
         line_color="red"
     )
 
-    return fig.to_html(full_html=False, include_plotlyjs=False)  # TODO check if cdn or False works
+    return fig.to_html(full_html=False, include_plotlyjs=False)
 
 
 def render_dashboard(headways_scatter_plot_html: str, headways_scatter_plot_first_last_html: str, headways_histogram_html: str) -> None:
