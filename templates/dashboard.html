@@ -16,6 +16,21 @@
         .chart {
             margin-bottom: 3rem;
         }
+        .chart-row {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        .chart-row .chart {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        @media (max-width: 768px) {
+            .chart-row {
+                flex-direction: column;
+            }
+        }
     </style>
 </head>
 <body>
@@ -23,18 +38,17 @@
     <p>Last updated: {{ updated }}</p>
 
     <div class="chart">
-        <h2>Headways Over Time at First and Last Stops</h2>
         {{ scatter_plot_headways_first_last | safe }}
     </div>
 
-    <div class="chart">
-        <h2>Headway Target Performance</h2>
-        {{ bar_chart_headways_frequency_threshold | safe }}
-    </div>
+    <div class="chart-row">
+        <div class="chart">
+            {{ bar_chart_headways_frequency_threshold | safe }}
+        </div>
 
-    <div class="chart">
-        <h2>Headway Distribution</h2>
-        {{ histogram_headways_distribution | safe }}
+        <div class="chart">
+            {{ histogram_headways_distribution | safe }}
+        </div>
     </div>
 </body>
 </html>
