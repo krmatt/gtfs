@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, time, timedelta
 import jinja2
 import os
 import pandas as pd
@@ -19,6 +19,9 @@ STOPS_FILENAME = "../MBTA_GTFS_STATIC_DATA/stops.txt"
 
 FREQUENT_HEADWAY_MINUTES = 15
 MAX_HEADWAY_MINUTES = 120
+LOOKBACK_DAYS = 7
+TIME_FREQUENT_SERVICE_START = time(5, 0)  # 5:00am ET
+TIME_FREQUENT_SERVICE_STOP = time(1, 0)  # 1:00am ET (next day)
 
 FREQUENT_BUS_ROUTES = [
     "1",
@@ -45,7 +48,7 @@ FREQUENT_BUS_ROUTES = [
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
-def load_data() -> pd.DataFrame:
+def load_data(lookback_days: int) -> pd.DataFrame:
     # Load data from SQLite into DataFrame
     conn = sqlite3.Connection(DB_PATH)
     df = pd.read_sql(f"""
@@ -56,11 +59,19 @@ def load_data() -> pd.DataFrame:
 
     # Calculate headways
     df["stop_timestamp"] = pd.to_datetime(df["stop_timestamp"])
-    df["headway"] = df.groupby(["stop_id", "route_id"])["stop_timestamp"].diff()
-    df["headway_minutes"] = df["headway"].dt.total_seconds() / 60
-    df.loc[df["headway_minutes"] > MAX_HEADWAY_MINUTES, "headway_minutes"] = pd.NA
+    df_lookback = df[
+        df["stop_timestamp"] >= pd.Timestamp.now(tz=df["stop_timestamp"].dt.tz) - timedelta(days=lookback_days)
+    ]
+    df_service_hours = df_lookback[
+        (df_lookback["stop_timestamp"].dt.time >= TIME_FREQUENT_SERVICE_START) |
+        (df_lookback["stop_timestamp"].dt.time < TIME_FREQUENT_SERVICE_STOP)
+    ]
 
-    return df
+    df_service_hours["headway"] = df_service_hours.groupby(["stop_id", "route_id"])["stop_timestamp"].diff()
+    df_service_hours["headway_minutes"] = df_service_hours["headway"].dt.total_seconds() / 60
+    df_service_hours.loc[df_service_hours["headway_minutes"] > MAX_HEADWAY_MINUTES, "headway_minutes"] = pd.NA
+
+    return df_service_hours
 
 
 def sort_key(s) -> tuple:
@@ -202,7 +213,7 @@ def render_dashboard(scatter_plot_headways_first_last: str,
 
 
 def main() -> None:
-    df = load_data()
+    df = load_data(LOOKBACK_DAYS)
     scatter_plot_headways_first_last = make_scatter_plot_headways_at_first_and_last_stops(df)
     bar_chart_headways_frequency_threshold = make_bar_chart_headways_frequency_threshold(df)
     histogram_headways_distribution = make_histogram_headways_distribution(df)
