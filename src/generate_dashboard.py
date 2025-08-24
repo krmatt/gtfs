@@ -22,23 +22,24 @@ MAX_HEADWAY_MINUTES = 120
 
 FREQUENT_BUS_ROUTES = [
     "1",
-    # "15",
-    # "22",
-    # "23",
-    # "28",
+    "15",
+    "22",
+    "23",
+    "28",
+    "31",
     # "32",
     # "39",
     # "57",
-    "66",
+    # "66",
     # "71",
     # "73",
-    "77",
-    # "104",
+    # "77",
+    "104",
     "109",
-    # "110",
+    "110",
     # "111",
-    # "116",
-]  # TODO include other frequent bus routes
+    "116",
+]  # TODO include routes as they become frequent bus routes
 
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
