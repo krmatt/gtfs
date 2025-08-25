@@ -126,7 +126,7 @@ def make_scatter_plot_headways_at_first_and_last_stops(df: pd.DataFrame) -> str:
         line_color="red"
     )
     fig.update_traces(visible="legendonly")
-    fig.for_each_trace(lambda t: t.update(visible=True) if "1 " in t.name else None)
+    fig.for_each_trace(lambda t: t.update(visible=True) if re.match(r"^1 ", t.name) else None)
 
     return fig.to_html(full_html=False, include_plotlyjs="cdn")
 
