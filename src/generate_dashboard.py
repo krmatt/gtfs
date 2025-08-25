@@ -128,7 +128,7 @@ def make_scatter_plot_headways_at_first_and_last_stops(df: pd.DataFrame) -> str:
     fig.update_traces(visible="legendonly")
     fig.for_each_trace(lambda t: t.update(visible=True) if re.match(r"^1 ", t.name) else None)
 
-    return fig.to_html(full_html=False, include_plotlyjs="cdn")
+    return fig.to_html(full_html=False, include_plotlyjs="cdn", config={"responsive": True})
 
 
 def make_bar_chart_headways_frequency_threshold(df: pd.DataFrame) -> str:
@@ -153,7 +153,7 @@ def make_bar_chart_headways_frequency_threshold(df: pd.DataFrame) -> str:
         x="Proportion of Headways Meeting Target",
         y="Route",
         orientation="h",
-        title=f"How Often do Frequent Buses Meet the 15 Minute Headway Target?",
+        title=f"How Often do Frequent Buses<br>Meet the 15 Minute Headway Target?",
         color="Route",
         range_x=[0,1],
         text="label"
@@ -164,10 +164,12 @@ def make_bar_chart_headways_frequency_threshold(df: pd.DataFrame) -> str:
         cliponaxis=False
     )
     fig.update_layout(
+        autosize=True,
+        margin=dict(l=50, r=50, t=50, b=50),
         showlegend=False
     )
 
-    return fig.to_html(full_html=False, include_plotlyjs=False)
+    return fig.to_html(full_html=False, include_plotlyjs=False, config={"responsive": True})
 
 
 def make_histogram_headways_distribution(df: pd.DataFrame) -> str:
@@ -194,7 +196,7 @@ def make_histogram_headways_distribution(df: pd.DataFrame) -> str:
     fig.update_traces(visible="legendonly")
     fig.for_each_trace(lambda t: t.update(visible=True) if t.name == "1" else None)
 
-    return fig.to_html(full_html=False, include_plotlyjs=False)
+    return fig.to_html(full_html=False, include_plotlyjs=False, config={"responsive": True})
 
 
 def render_dashboard(scatter_plot_headways_first_last: str,

@@ -57,6 +57,11 @@
         .chart-row .chart {
             flex: 1;
             min-width: 300px;
+            max-width: 100%;
+            width: 100%;
+        }
+        .chart > div {
+            width: 100% !important;
         }
         .about-content {
             max-width: 700px;
@@ -161,9 +166,26 @@
             tabs.forEach(tab => tab.classList.remove("active"));
             buttons.forEach(btn => btn.classList.remove("active"));
 
-            document.getElementById(tabId).classList.add("active");
+            const newTab = document.getElementById(tabId);
+            newTab.classList.add("active");
             event.target.classList.add("active");
+
+            setTimeout(() => {
+                const charts = newTab.querySelectorAll(".chart div.js-plotly-plot");
+                charts.forEach(chart => {
+                    Plotly.Plots.resize(chart);
+                });
+            }, 100);
         }
+    </script>
+    <script>
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                document.querySelectorAll(".js-plotly-plot").forEach(chart => {
+                    Plotly.Plots.resize(chart);
+                });
+            }, 300);
+        });
     </script>
 </body>
 </html>
