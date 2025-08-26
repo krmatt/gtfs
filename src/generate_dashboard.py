@@ -160,7 +160,7 @@ def make_bar_chart_headways_frequency_threshold(df: pd.DataFrame) -> str:
     )
     fig.update_traces(
         textposition='outside',
-        textfont_size=24,
+        textfont_size=14,
         cliponaxis=False
     )
     fig.update_layout(
@@ -181,6 +181,7 @@ def make_histogram_headways_distribution(df: pd.DataFrame) -> str:
         data_frame=df_plot,
         x="headway_minutes",
         color="route_id",
+        category_orders={"route_id": sorted(df_plot["route_id"].unique(), key=sort_key)},
         opacity=0.7,
         labels={"headway_minutes": "Headway (minutes)", "route_id": "Route"},
         title=f"Distribution of Headways"
